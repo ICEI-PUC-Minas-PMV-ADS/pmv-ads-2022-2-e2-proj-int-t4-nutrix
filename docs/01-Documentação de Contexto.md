@@ -19,11 +19,12 @@ Diante disso, entende-se a necessidade de um canal onde de maneira fácil é pos
 
 Como objetivos específicos, podemos ressaltar:
 
+<ul>
  <li>Criar dietas situacionais e únicas baseadas no usuário.<li/>
  <li>Permitir o acompanhamento do progresso por meio de uma linha do tempo.<li/>
  <li>Armazenamento das dietas e uma conta com seus dados.<li/>
  <li>Fornecer informações nutricionais confiáveis e seguras e adequadas.<li/>
-
+</ul>
  
 ## Justificativa
 
@@ -37,7 +38,7 @@ Os diversos portais e aplicativos que buscam elucidar e auxiliar na orientação
  <li>Excesso de informações que causam confusão.<li/>
  <li>Armazenar inúmeras dietas na plataforma.<li/>
  <li>Layout pouco intuitivo.<li/>
-<ul/>
+</ul>
 
  Hoje é possível identificar muitos aplicativos e sites que focam na contagem de calorias ingeridas e perda de peso, no entanto, muitas dessas tecnologias sofrem nos pontos citados anteriormente, diversas delas sequer são gratuitas e não estão disponíveis em português, o que dificulta a acessibilidade. Sendo assim, a criação fundamental de tecnologias de alto nível que possam alcançar com eficiência os públicos-alvos.
 
