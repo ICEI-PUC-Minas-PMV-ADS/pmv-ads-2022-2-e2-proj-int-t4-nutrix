@@ -4,7 +4,7 @@ A Alimentação é algo que tem grande peso em nosso bem estar, na saúde e nos 
 
 Aproximadamente 168 mil mortes por ano no Brasil são atribuíveis ao excesso de peso e obesidade, aponta estudo inédito publicado na revista científica Preventing Chronic Disease, o que são reflexos de uma alimentação desleixada e pouco conhecimento em relação ao impacto desse descuido, e cada vez mais situações do tipo acabam surgindo.
 
-Além disso, até para aqueles que já se encontram em um bom porte físico, como muitos esportistas, ainda não se descarta a necessidade de uma dieta e mesmo um acompanhamento nesse sentido, como associa a organização <i>American College of Sports Medicine<i/> uma boa nutrição a uma boa performance para os atletas.
+Além disso, até para aqueles que já se encontram em um bom porte físico, como muitos esportistas, ainda não se descarta a necessidade de uma dieta e mesmo um acompanhamento nesse sentido, como associa a organização <i>American College of Sports Medicine</i> uma boa nutrição a uma boa performance para os atletas.
 
 Diante disso, entende-se a necessidade de um canal onde de maneira fácil é possível elaborar dietas personalizadas, e ter um acompanhamento dos resultados, considerando as dificuldades em suas rotinas.
 
