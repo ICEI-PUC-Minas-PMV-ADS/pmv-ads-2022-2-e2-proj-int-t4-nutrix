@@ -19,11 +19,12 @@ Diante disso, entende-se a necessidade de um canal onde de maneira fácil é pos
 
 Como objetivos específicos, podemos ressaltar:
 
-◉ Criar dietas situacionais e únicas baseadas no usuário.
-◉ Permitir o acompanhamento do progresso por meio de uma linha do tempo.
-◉ Armazenamento das dietas e uma conta com seus dados.
-◉ Fornecer informações nutricionais confiáveis e seguras e adequadas.
-
+<ol>
+ <li>◉ Criar dietas situacionais e únicas baseadas no usuário.<li/>
+ <li>◉ Permitir o acompanhamento do progresso por meio de uma linha do tempo.<li/>
+ <li>◉ Armazenamento das dietas e uma conta com seus dados.<li/>
+ <li>◉ Fornecer informações nutricionais confiáveis e seguras e adequadas.<li/>
+</ol>
  
 ## Justificativa
 
