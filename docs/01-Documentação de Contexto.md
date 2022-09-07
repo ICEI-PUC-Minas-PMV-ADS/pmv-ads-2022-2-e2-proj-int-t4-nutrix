@@ -1,46 +1,47 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A Alimentação é algo que tem grande peso em nosso bem estar, na saúde e nos objetivos em geral, mas nem sempre recebe a devida importância.
+
+Aproximadamente 168 mil mortes por ano no Brasil são atribuíveis ao excesso de peso e obesidade, aponta estudo inédito publicado na revista científica Preventing Chronic Disease, o que são reflexos de uma alimentação desleixada e pouco conhecimento em relação ao impacto desse descuido, e cada vez mais situações do tipo acabam surgindo.
+
+Além disso, até para aqueles que já se encontram em um bom porte físico, como muitos esportistas, ainda não se descarta a necessidade de uma dieta e mesmo um acompanhamento nesse sentido, como associa a organização <i>American College of Sports Medicine<i/> uma boa nutrição a uma boa performance para os atletas.
+
+Diante disso, entende-se a necessidade de um canal onde de maneira fácil é possível elaborar dietas personalizadas, e ter um acompanhamento dos resultados, considerando as dificuldades em suas rotinas.
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+O problema que se busca resolver com este projeto é auxiliar aquelas pessoas que não disponibilizam tempo para cuidar da própria saúde, falta de recursos financeiros para contratar nutricionistas ou aplicativos pagos, carência de conhecimento e até mesmo as que querem um acompanhamento evolutivo mais a fundo.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
+ 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é desenvolver um site onde seja possível a elaboração de múltiplas dietas personalizadas e específicas para os usuários, permitindo alcançar diversos objetivos como a perda de peso, um ganho de massa muscular, entre outros. O site também possuirá registros das dietas e da evolução do usuário em si, permitindo acompanhar o antes e depois.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Como objetivos específicos, podemos ressaltar:
+
+◉ Criar dietas situacionais e únicas baseadas no usuário.
+◉ Permitir o acompanhamento do progresso por meio de uma linha do tempo.
+◉ Armazenamento das dietas e uma conta com seus dados.
+◉ Fornecer informações nutricionais confiáveis e seguras e adequadas.
+
  
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Apesar da abundância de informações a respeito da importância de se ter uma alimentação equilibrada, a acessibilidade aos métodos de como “realizar” esse importante feito está em falta, tão quanto uma forma de acompanhar o progresso derivado da implementação dessas dietas.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Os diversos portais e aplicativos que buscam elucidar e auxiliar na orientação nutricional, possuem várias deficiências que acabam por afastar os interessados principalmente por cinco fatores:
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+◉ Falta de informações relevantes e orientação objetiva.
+◉ Não possibilitar acompanhamento da evolução.
+◉ Excesso de informações que causam confusão.
+◉ Armazenar inúmeras dietas na plataforma.
+◉ Layout pouco intuitivo.
+
+Hoje é possível identificar muitos aplicativos e sites que focam na contagem de calorias ingeridas e perda de peso, no entanto, muitas dessas tecnologias sofrem nos pontos citados anteriormente, diversas delas sequer são gratuitas e não estão disponíveis em português, o que dificulta a acessibilidade. Sendo assim, a criação fundamental de tecnologias de alto nível que possam alcançar com eficiência os públicos-alvos.
+
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+Este trabalho tem o foco no público que possui dificuldade em desenvolver uma alimentação saudável, devido à indisponibilidade de tempo ou falta de recursos financeiros, permitindo também armazenar as dietas e a própria evolução do usuário.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Estabeleceu-se como faixa etária ideal desse projeto, homens e mulheres entre 18 a 50 anos, embora a grande maioria possa utilizar o sistema. E também as pessoas que buscam qualidade de vida,  através de uma alimentação saudável que se complemente com uma rotina diária de alta ou baixa demanda física.
