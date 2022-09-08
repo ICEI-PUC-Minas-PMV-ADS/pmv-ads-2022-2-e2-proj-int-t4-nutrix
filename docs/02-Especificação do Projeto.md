@@ -10,7 +10,8 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 <img  
   src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png"
-  style="width: 100px"   
+  width="30%"   
+  height="30%" 
 ><img/>
 
 <h4>Idade:</h4> 33
