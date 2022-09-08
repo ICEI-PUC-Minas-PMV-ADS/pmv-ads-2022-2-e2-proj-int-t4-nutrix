@@ -5,7 +5,7 @@
 
 `Segundo Semestre - Eixo 2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+ Desenvolvimento de um site que proporcionará a geração de dietas, armazenando as mesmas juntamente aos dados do usuário, permitindo acompanhar a utilização da plataforma e também sua evolução sob a aplicação das dietas, fornecendo relatórios e alertas.
 
 ## Integrantes
 
