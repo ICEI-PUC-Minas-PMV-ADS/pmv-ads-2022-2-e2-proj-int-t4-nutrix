@@ -8,9 +8,9 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 <h3>Ana Cláudia</h3>
 <img src="https://th.bing.com/th/id/R.b15541f5211192e39040dbb75cfdae14?rik=x3GrszcrA23SWg&pid=ImgRaw&r=0"><img/>
-<h6>Idade:</h4> 33
-<h6>Ocupação:</h5> Trabalha como contadora de uma empresa renomada.
-<h6>Motivações:<h2/>
+<h4>Idade:</h4> 33
+<h5>Ocupação:</h5> Trabalha como contadora de uma empresa renomada.
+<h2>Motivações:<h2/>
 <ul>
  <li>Melhorar a saúde</li>
  <li>Emagrecer</li>
