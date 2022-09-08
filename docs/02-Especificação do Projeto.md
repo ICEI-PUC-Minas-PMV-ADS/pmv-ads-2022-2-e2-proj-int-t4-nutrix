@@ -2,25 +2,43 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feito pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
-
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+<h5>Ana Cláudia</h5>
+<img src="https://th.bing.com/th/id/R.b15541f5211192e39040dbb75cfdae14?rik=x3GrszcrA23SWg&pid=ImgRaw&r=0"><img/>
+<h6>Idade:</h6> 33
+<h6>Ocupação:</h6> Trabalha como contadora de uma empresa renomada.
+<h6>Motivações:<h6/>
+<ul>
+ Melhorar a saúde
+ Emagrecer
+ Falta de conhecimento
+</ul>
+ 
+ <h6>Frustações:</h6>
+<ul>
+ Saúde debilitada
+ Dificuldade com atividade física
+ Alimentação negligenciada
+</ul>
+ 
+<h6>Hobbies, História:</h6>
+<ul>
+ Amante de redes sociais
+ Entusiasta de jogos eletrônicos
+</ul>
+ 
+<h6>Aplicativos:</h6>
+<ul>
+ Instagram
+ Linkedin
+ Tinder
+ Pinterest
+ iFood
+</ul>
+ 
 
 ## Histórias de Usuários
 
