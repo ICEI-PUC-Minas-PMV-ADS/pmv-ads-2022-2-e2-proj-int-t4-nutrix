@@ -6,37 +6,37 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-<h5>Ana Cláudia</h5>
+<h3>Ana Cláudia</h3>
 <img src="https://th.bing.com/th/id/R.b15541f5211192e39040dbb75cfdae14?rik=x3GrszcrA23SWg&pid=ImgRaw&r=0"><img/>
-<h6>Idade:</h6> 33
-<h6>Ocupação:</h6> Trabalha como contadora de uma empresa renomada.
-<h6>Motivações:<h6/>
+<h6>Idade:</h4> 33
+<h6>Ocupação:</h5> Trabalha como contadora de uma empresa renomada.
+<h6>Motivações:<h2/>
 <ul>
- Melhorar a saúde
- Emagrecer
- Falta de conhecimento
+ <li>Melhorar a saúde</li>
+ <li>Emagrecer</li>
+ <li>Falta de conhecimento</li>
 </ul>
  
  <h6>Frustações:</h6>
 <ul>
- Saúde debilitada
- Dificuldade com atividade física
- Alimentação negligenciada
+ <li>Saúde debilitada</li>
+ <li>Dificuldade com atividade física</li>
+ <li>Alimentação negligenciada</li>
 </ul>
  
 <h6>Hobbies, História:</h6>
 <ul>
- Amante de redes sociais
- Entusiasta de jogos eletrônicos
+ <li>Amante de redes sociais</li>
+ <li>Entusiasta de jogos eletrônicos</li>
 </ul>
  
 <h6>Aplicativos:</h6>
 <ul>
- Instagram
- Linkedin
- Tinder
- Pinterest
- iFood
+ <li>Instagram</li>
+ <li>Linkedin</li>
+ <li>Tinder</li>
+ <li>Pinterest</li>
+ <li>iFood</li>
 </ul>
  
 
