@@ -119,19 +119,11 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`     | PARA ... `MOTIVO/VALOR`                               |
 |--------------------|----------------------------------------|-------------------------------------------------------|
 |Ana Cláudia         | Emagrecer de forma correta             | Evitar engordar novamente                             |
-|                    |                                        |                                                       |
 |Ana Cláudia         | Obter uma alimentação mais saudável    | Ficar melhor de saúde e evitar doenças                |
-|                    |                                        |                                                       |
 |Carlos Santos       | Dificuldade de ganhar massa magra      | Aumentar/manter a quantidade de músculos              |
-|                    |                                        |                                                       |
 |Carlos Santos       | Melhorar a performance de seus treinos | Obter melhores resultados em um espaço de tempo menor |
-|                    |                                        |                                                       |
 |Maria Alice         | Aumentar o índice de massa corporal de | Reforçar sua saúde e obter bons hábitos alimentares   |
-|                    | maneira saudável                       |                                                       |
-|                    |                                        |                                                       |
 |Maria Alice         | Melhorar a suplementação de nutrientes | Evitar problemas de saúde por falta de vitaminas      |
-|                    |                                        | e nutrientes essenciais                               |
-|--------------------|----------------------------------------|-------------------------------------------------------|
 
 
 ## Requisitos
