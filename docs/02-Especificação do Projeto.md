@@ -6,12 +6,9 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 ## Personas
 
-<h3>Ana Cláudia</h3>
-<div style="display: inline-block">
-   <img src="https://cdn-icons-png.flaticon.com/512/4140/4140051.png" width="100" height="100" />
-   <h4>Idade:</h4> 33
-   <h4>Ocupação:</h4> Trabalha como contadora de uma empresa renomada.
-</div>
+|Ana Cláudia         | Ocupação                       | Idade |
+|--------------------|--------------------------------|-------|
+|<img src="https://cdn-icons-png.flaticon.com/512/4140/4140051.png" width="100" height="100" />|Trabalha como contadora de uma empresa renomada. |33|
 
 <h4>Motivações:</h4>
 <ul>
@@ -44,11 +41,10 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 <hr />
 
-<h3>Carlos Santos</h3>
+|Carlos Santos       | Ocupação                       | Idade |
+|--------------------|--------------------------------|-------|
+|<img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" width="100" height="100"/>|Bartender  |31|
 
-<img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" width="100" height="100"/>
-<h4>Idade:</h4> 31
-<h4>Ocupação:</h4> Bartender
 <h4>Motivações:</h4>
 <ul>
  <li>Ganho de massa magra</li>
@@ -79,11 +75,14 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 <hr />
 
-<h3>Ana Cláudia</h3>
 
-<img src="https://cdn-icons-png.flaticon.com/512/4140/4140076.png" width="100" height="100"/>
-<h4>Idade:</h4> 28
-<h4>Ocupação:</h4> Lojista do ramo de vestimentas.
+
+|Maria Alice         | Ocupação                       | Idade |
+|--------------------|--------------------------------|-------|
+|<img src="https://cdn-icons-png.flaticon.com/512/4140/4140076.png" width="100" height="100"/>|Lojista do ramo de vestimentas. |  28|
+
+
+
 <h4>Motivações:</h4>
 <ul>
  <li>Ganho de massa</li>
