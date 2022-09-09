@@ -177,4 +177,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Segue abaixo o diagrama de casos de uso que representa a ideia central de nossa aplicação.
 
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t4-nutrix/blob/876f20c14962a945233c5c9d5a68d2e50d2c6447/docs/img/Diagrama%20casos%20de%20uso.png?raw=true"/>
+
 
