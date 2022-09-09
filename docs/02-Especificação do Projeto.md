@@ -137,37 +137,28 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 |RF-001| O site deve fornecer uma apresentação sobre a ideia geral do projeto      |    MÉDIA   | 
 |RF-002| O site deve trabalhar com login e logoff para o usuário                   |    ALTA    |
 |RF-003| O site deve permitir a edição do perfil do usuário (CRUD)                 |    ALTA    | 
-|RF-004| O site deverá elaborar uma dieta com refeições balanceadas, de acordo     |    ALTA    |
-|      |com o perfil do usuário                                                    |            |
+|RF-004| O site deverá elaborar uma dieta com refeições balanceadas, de acordo com o perfil do usuário     |    ALTA    |
 |RF-005| O site deve permitir a edição das dietas armazenadas (CRUD)               |    MÉDIA   | 
-|RF-006| O site deve permitir ao usuário visualizar o valor nutricional de cada    |    BAIXA   |
-|      |alimento que compõem a refeição                                            |            | 
+|RF-006| O site deve permitir ao usuário visualizar o valor nutricional de cada alimento que compõem a refeição   |    BAIXA   |
 |RF-007| O site deve calcular a quantidade de água ideal a ser ingerida            |    ALTA    |
-|RF-008| O site deverá oferecer uma linha do tempo mostrando a evolução do usuário,|    ALTA    |
-|      |alimentada pelas dietas cadastradas e alterações no perfil                 |            | 
-|RF-009| O site deverá alertar sobre a não atualização da linha do tempo por parte |    BAIXA   |
-|      |do usuário a partir de determinado período                                 |            |
+|RF-008| O site deverá oferecer uma linha do tempo mostrando a evolução do usuário, alimentada  |    ALTA    |
+|      |pelas dietas cadastradas e alterações no perfil                            |            |
+|RF-009| O site deverá alertar sobre a não atualização da linha do tempo por parte do usuário   | BAIXA   |
+|      |a partir de determinado período                                            |            |
 |RF-010| O site deverá apresentar relatórios sobre o desenvolvimento do usuário    |    ALTA    |
-|      |baseando-se nos dados fornecidos pelo mesmo                                |            | 
-|RF-011| O site deverá fornecer um relatório demonstrando o total de dietas já     |    BAIXA   |
-|      |criadas                                                                    |            |
-|RF-012| O site deverá fornecer um relatório que contém um registro das variações  |    MÉDIA   |
-|      |no peso do usuário                                                         |            | 
-|RF-013| O site deverá fornecer um relatório que contém advertências sobre a       |    MÉDIA   |
-|      |situação de saúde do usuário                                               |            |
+|      |baseando-se nos dados fornecidos pelo mesmo|   
+|RF-011| O site deverá fornecer um relatório demonstrando o total de dietas já criadas |    BAIXA   |
+|RF-012| O site deverá fornecer um relatório que contém um registro das variações no peso do usuário |    MÉDIA   |
+|RF-013| O site deverá fornecer um relatório que contém advertências sobre a situação de saúde do usuário       |    MÉDIA   |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito                                                   | Prioridade |
 |-------|--------------------------------------------------------------------------|------------|
-|RNF-001| O site deve ser publicado em um ambiente acessível publicamente          |    ALTA    | 
-|na Internet (Repl.it, GitHub Pages, Heroku);                                      |            |
-|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular     |    ALTA    |
-|de forma adequada                                                                 |            |
-|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela        |    MÉDIA   | 
-|em conformidade                                                                   |            |
-|RNF-004| O site deve ser compatível com os principais navegadores do mercado      |    ALTA    |
-|(Google Chrome, Firefox, Microsoft Edge)                                          |            |
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku) |    ALTA    | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada |    ALTA    |
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela  em conformidade |    MÉDIA   | 
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |    ALTA    |
 |RNF-005| A aplicação deverá armazenar as informações em um banco de dados (MySQL) |    ALTA    |
 
 
@@ -177,8 +168,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID     | Descrição da Restrição                                                   |
 |-------|--------------------------------------------------------------------------|
-|RE-001 | O projeto deverá ser entregue no final do semestre letivo, não podendo   |
-|extrapolar a data de 11/12/2022.                                                  |
+|RE-001 | O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 11/12/2022. |
 |RE-002 | O aplicativo deve se restringir às tecnologias Frontend e Backend.       |            
 |RNE-003| A equipe não pode subcontratar o desenvolvimento do trabalho.            |
 
