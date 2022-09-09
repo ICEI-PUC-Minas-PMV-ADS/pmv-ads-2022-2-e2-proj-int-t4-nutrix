@@ -8,9 +8,7 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 
 <h3>Ana Cláudia</h3>
 
-<img src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png" width="100" height="100">
-<img/>
-
+<img src="https://cdn-icons-png.flaticon.com/512/4140/4140051.png" width="100" height="100" />
 <h4>Idade:</h4> 33
 <h4>Ocupação:</h4> Trabalha como contadora de uma empresa renomada.
 <h4>Motivações:</h4>
@@ -41,67 +39,178 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
  <li>Pinterest</li>
  <li>iFood</li>
 </ul>
+
+<hr />
+
+<h3>Carlos Santos</h3>
+
+<img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" width="100" height="100"/>
+<h4>Idade:</h4> 31
+<h4>Ocupação:</h4> Bartender
+<h4>Motivações:</h4>
+<ul>
+ <li>Ganho de massa magra</li>
+ <li>Acompanhamento de evolução</li>
+ <li>Melhorar performance nos exercícios</li>
+</ul>
+ 
+ <h4>Frustações:</h4>
+<ul>
+ <li>Poucos ganhos na musculação</li>
+ <li>Melhorar tempos na corrida</li>
+</ul>
+ 
+<h4>Hobbies, História:</h4>
+<ul>
+ <li>Musculação</li>
+ <li>Corrida</li>
+ <li>Apreciador de esportes</li>
+</ul>
+ 
+<h4>Aplicativos:</h4>
+<ul>
+ <li>Instagram</li>
+ <li>Linkedin</li>
+ <li>Tinder</li>
+ <li>Strava</li>
+</ul>
+
+<hr />
+
+<h3>Ana Cláudia</h3>
+
+<img src="https://cdn-icons-png.flaticon.com/512/4140/4140076.png" width="100" height="100"/>
+<h4>Idade:</h4> 28
+<h4>Ocupação:</h4> Lojista do ramo de vestimentas.
+<h4>Motivações:</h4>
+<ul>
+ <li>Ganho de massa</li>
+ <li>Economia</li>
+ <li>Alimentar-se melhor</li>
+</ul>
+ 
+ <h4>Frustações:</h4>
+<ul>
+ <li>Dificuldade financeira</li>
+ <li>Dificuldade de ganho de massa</li>
+ <li>Problemas de saúde</li>
+</ul>
+ 
+<h4>Hobbies, História:</h4>
+<ul>
+ <li>Cozinhar</li>
+ <li>Jogar vôlei casualmente</li>
+ <li>Jardinagem</li>
+</ul>
+ 
+<h4>Aplicativos:</h4>
+<ul>
+ <li>Instagram</li>
+ <li>Linkedin</li>
+ <li>Tinder</li>
+ <li>Twitter</li>
+</ul>
  
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`     | PARA ... `MOTIVO/VALOR`                               |
+|--------------------|----------------------------------------|-------------------------------------------------------|
+|Ana Cláudia         | Emagrecer de forma correta             | Evitar engordar novamente                             |
+|                    |                                        |                                                       |
+|Ana Cláudia         | Obter uma alimentação mais saudável    | Ficar melhor de saúde e evitar doenças                |
+|                    |                                        |                                                       |
+|Carlos Santos       | Dificuldade de ganhar massa magra      | Aumentar/manter a quantidade de músculos              |
+|                    |                                        |                                                       |
+|Carlos Santos       | Melhorar a performance de seus treinos | Obter melhores resultados em um espaço de tempo menor |
+|                    |                                        |                                                       |
+|Maria Alice         | Aumentar o índice de massa corporal de | Reforçar sua saúde e obter bons hábitos alimentares   |
+|                    | maneira saudável                       |                                                       |
+|                    |                                        |                                                       |
+|Maria Alice         | Melhorar a suplementação de nutrientes | Evitar problemas de saúde por falta de vitaminas      |
+|                    |                                        | e nutrientes essenciais                               |
+|--------------------|----------------------------------------|-------------------------------------------------------|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|ID    | Descrição do Requisito                                                    | Prioridade |
+|------|---------------------------------------------------------------------------|------------|
+|RF-001| O site deve fornecer uma apresentação sobre a ideia geral do projeto      |    MÉDIA   | 
+|      |                                                                           |            |
+|RF-002| O site deve trabalhar com login e logoff para o usuário                   |    ALTA    |
+|      |                                                                           |            |
+|RF-003| O site deve permitir a edição do perfil do usuário (CRUD)                 |    ALTA    | 
+|      |                                                                           |            |
+|RF-004| O site deverá elaborar uma dieta com refeições balanceadas, de acordo     |    ALTA    |
+|      |com o perfil do usuário                                                    |            |
+|      |                                                                           |            |
+|RF-005| O site deve permitir a edição das dietas armazenadas (CRUD)               |    MÉDIA   | 
+|      |                                                                           |            |
+|RF-006| O site deve permitir ao usuário visualizar o valor nutricional de cada    |    BAIXA   |
+|      |alimento que compõem a refeição                                            |            | 
+|      |                                                                           |            |
+|RF-007| O site deve calcular a quantidade de água ideal a ser ingerida            |    ALTA    |
+|      |                                                                           |            |
+|RF-008| O site deverá oferecer uma linha do tempo mostrando a evolução do usuário,|    ALTA    |
+|      |alimentada pelas dietas cadastradas e alterações no perfil                 |            | 
+|      |                                                                           |            |
+|RF-009| O site deverá alertar sobre a não atualização da linha do tempo por parte |    BAIXA   |
+|      |do usuário a partir de determinado período                                 |            |
+|      |                                                                           |            |
+|RF-010| O site deverá apresentar relatórios sobre o desenvolvimento do usuário    |    ALTA    |
+|      |baseando-se nos dados fornecidos pelo mesmo                                |            | 
+|      |                                                                           |            |
+|RF-011| O site deverá fornecer um relatório demonstrando o total de dietas já     |    BAIXA   |
+|      |criadas                                                                    |            |
+|      |                                                                           |            |
+|RF-012| O site deverá fornecer um relatório que contém um registro das variações  |    MÉDIA   |
+|      |no peso do usuário                                                         |            | 
+|      |                                                                           |            |
+|RF-013| O site deverá fornecer um relatório que contém advertências sobre a       |    MÉDIA   |
+|      |situação de saúde do usuário                                               |            |
+|      |                                                                           |            |
+|------|---------------------------------------------------------------------------|------------|
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|ID     | Descrição do Requisito                                                   | Prioridade |
+|-------|--------------------------------------------------------------------------|------------|
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente          |    ALTA    | 
+|na Internet (Repl.it, GitHub Pages, Heroku);                                      |            |
+|                                                                                  |            |
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular     |    ALTA    |
+|de forma adequada                                                                 |            |
+|                                                                                  |            |
+|RNF-003| O site deve ter bom nível de contraste entre os elementos da tela        |    MÉDIA   | 
+|em conformidade                                                                   |            |
+|                                                                                  |            |
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado      |    ALTA    |
+|(Google Chrome, Firefox, Microsoft Edge)                                          |            |
+|                                                                                  |            |
+|RNF-005| A aplicação deverá armazenar as informações em um banco de dados (MySQL) |    ALTA    |
+|----------------------------------------------------------------------------------|------------|
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|ID     | Descrição da Restrição                                                   |
+|-------|--------------------------------------------------------------------------|
+|RE-001 | O projeto deverá ser entregue no final do semestre letivo, não podendo   |
+|extrapolar a data de 11/12/2022.                                                  |
+|                                                                                  |
+|RE-002 | O aplicativo deve se restringir às tecnologias Frontend e Backend.       |            
+|                                                                                  |
+|RNE-003| A equipe não pode subcontratar o desenvolvimento do trabalho.            |
+|----------------------------------------------------------------------------------|
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
