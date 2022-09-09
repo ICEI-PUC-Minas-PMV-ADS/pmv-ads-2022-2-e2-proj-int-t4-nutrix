@@ -7,10 +7,12 @@ A definição exata do problema e os pontos mais relevantes a serem tratados nes
 ## Personas
 
 <h3>Ana Cláudia</h3>
+<div style="display: inline-block">
+   <img src="https://cdn-icons-png.flaticon.com/512/4140/4140051.png" width="100" height="100" />
+   <h4>Idade:</h4> 33
+   <h4>Ocupação:</h4> Trabalha como contadora de uma empresa renomada.
+</div>
 
-<img src="https://cdn-icons-png.flaticon.com/512/4140/4140051.png" width="100" height="100" />
-<h4>Idade:</h4> 33
-<h4>Ocupação:</h4> Trabalha como contadora de uma empresa renomada.
 <h4>Motivações:</h4>
 <ul>
  <li>Melhorar a saúde</li>
