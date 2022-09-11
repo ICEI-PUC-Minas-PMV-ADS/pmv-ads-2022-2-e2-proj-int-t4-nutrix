@@ -10,7 +10,7 @@
 ## Integrantes
 
 * Philipe Rocha de Jesus Souza
-* Nome completo do aluno 2
+* Gabriel de Almeida Carvalho
 * Nome completo do aluno 3
 * Nome completo do aluno 4
 
