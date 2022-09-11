@@ -14,6 +14,7 @@
 * Gabriel de Almeida Carvalho
 * Rafael Henrique Pereira
 * Pedro Victor Borges Franca
+* André Filipe Barbosa Barone
 
 ## Orientador
 
