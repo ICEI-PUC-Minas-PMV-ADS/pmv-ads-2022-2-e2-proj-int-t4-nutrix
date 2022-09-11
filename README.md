@@ -12,7 +12,7 @@
 * Philipe Rocha de Jesus Souza
 * Gabriel de Almeida Carvalho
 * Rafael Henrique Pereira
-* Nome completo do aluno 4
+* Pedro Victor Borges Franca
 
 ## Orientador
 
