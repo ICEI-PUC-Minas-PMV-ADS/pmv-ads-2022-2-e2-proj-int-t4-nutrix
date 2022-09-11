@@ -11,7 +11,7 @@
 
 * Philipe Rocha de Jesus Souza
 * Gabriel de Almeida Carvalho
-* Nome completo do aluno 3
+* Rafael Henrique Pereira
 * Nome completo do aluno 4
 
 ## Orientador
