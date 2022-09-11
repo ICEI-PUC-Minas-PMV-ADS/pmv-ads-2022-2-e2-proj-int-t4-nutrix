@@ -12,7 +12,7 @@ Diante disso, entende-se a necessidade de um canal onde de maneira fácil é pos
 ## Problema
  O problema que se busca resolver com este projeto é auxiliar aquelas pessoas que não disponibilizam tempo para cuidar da própria saúde, falta de recursos financeiros para contratar nutricionistas ou aplicativos pagos, carência de conhecimento e até mesmo as que querem um acompanhamento evolutivo mais a fundo.
  
- Foi desenvolvido um vídeo em questão que aborda o problema e a solução proposta, que está vinculado disponível no repositório.
+ Foi desenvolvido um vídeo em questão que aborda o problema e a solução proposta, que está disponível no repositório.
 <h4><a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t4-nutrix/blob/1bb9c5ff94859cf9425330445878b581704b98bc/docs/v%C3%ADdeo/nutrix-eixo2.mp4">Clique aqui para visualizar o vídeo</a></h4>
  
 ## Objetivos
