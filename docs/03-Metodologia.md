@@ -64,6 +64,14 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 <h5>Trancado:</h5> Quando alguma coisa impede a conclusão da tarefa, ela é movida para esta lista até sua liberação.
 
+A tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:<br />
+Documentação -> Amarelo<br />
+Desenvolvimento -> Verde <br />
+Infraestrutura -> Rosa<br />
+Testes -> Vermelho <br />
+Gerência de Projetos -> Cinza<br />
+Design -> Azul<br />
+
 
 ### Ferramentas
 
