@@ -2,7 +2,7 @@
 
 Os testes de usabilidade permitem avaliar a qualidade da interface com o usuário da aplicação interativa.
 
-| **Teste** 	| **CT-01 – Teste da usabilidade da função central do projeto** 	|
+| **Teste** 	| **Teste da usabilidade da função central do projeto** 	|
 |:---:	|:---:	|
 |	Participantes | Participantes selecionados com base no público alvo que foi especificado na introdução do projeto.|
 | Objetivo 	| Completar a criação de um cardápio. |
