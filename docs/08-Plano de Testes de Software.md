@@ -27,12 +27,3 @@ Por exemplo:
 | Passos 	| 1) Acessar o Navegador <br> 2) Informar o endereço do Site <br> 3) Visualizar a página inicial <br> 4) Selecionar a opção de registro <br> 5) Preencher as informações solicitadas <br> 6) Confirmar o registro <br> 7) Retornar a página inicial <br> 8) Preencher as credenciais <br> 9) Clicar no botão de login <br> 10) Visualizar a página principal <br> 11) Selecionar a opção de perfil no canto superior direito <br> 12) Selecionar a opção “Logoff” <br> 13) Visualizar a página inicial <br> |
 |Critério de Êxito | Os redirecionamentos de página devem ocorrer corretamente, erros devem ser acusados ao preencher dados incorretos.|
 
-
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
