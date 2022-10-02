@@ -17,6 +17,8 @@ Outras telas como; Tela Perfil do usuário e Tela relatórios, também auxiliam 
 
 ## Wireframes
 
+Realizamos um Wireframe interativo, a partir do link https://www.figma.com/file/g5hZUAl51zvFveyrapw0ep/Nutrix-Dietas-e-Acompanhamento-Wireframes?node-id=0%3A1. Segue abaixo os detalhes de cada página.
+
  - TELA DE LOGIN
 
 Na Tela de Login, nós focamos em deixá-la o mais simples possível para que o usuário não tenha muitas distrações e que seja direto ao ponto, login ou cadastrar.
