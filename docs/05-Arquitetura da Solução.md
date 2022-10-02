@@ -2,15 +2,21 @@
 
 ## Diagrama de Classes
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t4-nutrix/blob/ced67fb2561f14a9e66372bac162c12278c86093/docs/img/Diagrama%20de%20classes.png">
+Esse é o diagrama de classe que fizemos do projeto.
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t4-nutrix/blob/3abf64bb1b735db5a6eafa0e4ec0a2e789762a9a/docs/img/Diagrama%20de%20Classe.jpg">
 
 ## Modelo ER (Projeto Conceitual)
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
+Modelo de Entidade Relacionamento aprensentado pelo grupo.
+
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t4-nutrix/blob/3abf64bb1b735db5a6eafa0e4ec0a2e789762a9a/docs/img/DRE.jpg">
 
 ## Projeto da Base de Dados
 
+Em seguida, mostraremos o Projeto da Base de Dados do projeto.
 
+<img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t4-nutrix/blob/3abf64bb1b735db5a6eafa0e4ec0a2e789762a9a/docs/img/Base%20de%20Dados.jpg">
 
 ## Tecnologias Utilizadas
 
