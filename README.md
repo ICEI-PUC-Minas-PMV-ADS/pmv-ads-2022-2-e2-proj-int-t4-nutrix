@@ -1,4 +1,5 @@
-# NUTRIX <br /> Dietas e Acompanhamento 
+# NUTRIX  <br /> Dietas e Acompanhamento 
+<img width="200" src="docs/img/logo.png" />
 
 `Análise e Desenvolvimento de Sistemas`
 
