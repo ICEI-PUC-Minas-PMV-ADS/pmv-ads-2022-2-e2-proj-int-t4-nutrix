@@ -1,0 +1,381 @@
+:root {
+    --color-dark-blue: #17222C;
+    --color-dark-green: #001A0A;
+    --color-primary-green: #005E23;
+    --color-secondary-green: #007029;
+    --color-light-green: #d9ffe6;
+    --color-gray: #D6D6D6;
+    --color-white: #FFFF;
+    --color-black: #0000;
+
+}
+
+* {
+    font-family: Rajdhani, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.first-container {
+    align-items: center;
+    height: 20vh; 
+    display: inline-block;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 28px;
+    background: url('../../assets/background-login.jpeg');
+}
+
+.first-container > img {
+    width: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.first-container > a {
+    display: none;
+}
+
+/* ajuste para outros celulares na imagem */
+
+@media (min-height: 500px) {
+
+    .first-container > img {
+        padding-top: 4vh;
+    }
+
+}
+
+@media (min-height: 620px) {
+
+    .first-container > img {
+        padding-top: 6vh;
+    }
+
+}
+
+@media (min-height: 800px) {
+
+    .first-container > img {
+        padding-top: 8vh;
+    }
+
+}
+
+
+.first-container > h1 {
+    color: var(--color-white);
+    display: inline;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.first-container > h2 {
+    color: var(--color-light-green);
+    font-size: 20px;
+    padding-bottom: 15px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.second-container > h1, h3 {
+    display: none;
+}
+
+.second-container {
+    background-color: var(--color-gray);
+    padding-top: 55px;
+    height: 80vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-dark-blue);
+}
+
+.second-container > article {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.login-form > label {
+    font-size: 16px;
+    position: relative;
+    font-weight: 600;
+    right: 80%;
+}
+
+.login-form > input {
+    width: 190%;
+    height: 25px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+.login-form > article {
+    margin-top: -13px;
+    position: relative;
+    font-weight: 600;
+    font-size: 15px;
+    left: 55%;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.login-form > article:hover {
+    font-weight: 800;
+}
+
+.login-form > button {
+    font-size: 18px;
+    width: 190%;
+    height: 30px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    font-weight: 600;
+    background-color: var(--color-primary-green);
+    color: var(--color-white);
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.login-form > button:hover {
+    background-color: var(--color-secondary-green);
+    transition: 0.5s;
+}
+
+.register-offer {
+    display: flex;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--color-dark-blue);
+}
+
+.register-offer > a {
+    padding-left: 4px;
+    color: var(--color-dark-blue);
+}
+
+.register-offer > a:hover {
+    color: var(--color-secondary-green);
+    transition: 0.5s;
+}
+
+
+/* Responsividade a partir de  Tablet */
+
+@media (min-width: 600px) {
+
+    .first-container {
+        align-items: center;
+        justify-content: center;
+        height: 11vh; 
+        display: inline;
+        font-weight: bold;
+        background: url('../../assets/background-login.png')
+    }
+    
+
+
+    .first-container > img {
+        padding-top: 0vh;
+        width: 80px;
+    }
+
+    /* para tablets mais compridos */
+
+    @media (min-height: 1100px) {
+
+        .first-container > img {
+            padding-top: 3vh;
+            width: 80px;
+        }
+
+    }
+
+
+
+    .second-container > article {
+        padding-top: 15px;
+    }
+
+    .first-container > h1 {
+        align-self: center;
+        justify-content: center;
+        font-size: 45px;
+        
+    }
+
+
+    .login-form > label {
+        right: 110%;
+        font-size: 20px;
+    }
+    
+    .login-form > input {
+        width: 250%;
+        font-size: 20px;
+        height: 30px;
+    }
+    
+    .login-form > article {
+        left: 87%;
+        font-size: 18px;
+    }
+    
+    .login-form > button {
+        font-size: 20px;
+        width: 250%;
+        height: 35px;
+    }
+
+    .register-offer {
+        font-size: 18px;
+    }
+}
+
+/* Responsividade PC */
+
+@media (min-width: 1025px) {
+
+    body {
+        background: url('../../assets/background-login.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+    }
+
+    .first-container {
+        height: 70vh; 
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width: 390px;
+
+        display: inline;
+        font-weight: bold;
+        background: var(--color-dark-blue);
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+    }
+
+    .first-container > h1, h2 {
+        display: none;
+    }
+
+
+    .first-container > img {
+        width: 125px;
+        padding: 0;
+        display: flex;
+        padding-top: 12vh;
+    }
+
+    .first-container > p {
+        display: flex;
+        font-size: 20px;
+        color: var(--color-gray);
+        padding-top: 25px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+
+    .second-container {
+        background-color: var(--color-gray);
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 70vh; 
+        width: 390px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: var(--color-dark-blue);
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .second-container > h1 {
+        padding-top: 20px;
+        font-size: 40px;
+        color: var(--color-dark-blue);
+        display: inline;
+        font-weight: 900;
+    }
+
+    
+    .second-container > h3 {
+        color: var(--color-dark-green);
+        display: inline;
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+    .login-form > label {
+        right: 60%;
+        font-size: 18px;
+
+    }
+    
+    .login-form > input {
+        width: 150%;
+        font-size: 18px;
+    }
+    
+    .login-form > article {
+        left: 38%;
+        font-size: 16px;
+        padding-bottom: 25px;
+    }
+    
+    .login-form > button {
+        width: 150%;
+    }
+
+    .register-offer {
+        font-size: 16px;
+
+    }
+
+    
+
+}
