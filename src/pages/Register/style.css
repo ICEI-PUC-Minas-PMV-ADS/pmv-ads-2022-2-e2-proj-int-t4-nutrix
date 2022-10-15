@@ -117,24 +117,31 @@ main {
 .second-container > article {
     font-size: 20px;
     font-weight: 700;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
-.login-form {
+.register-form {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
 
-.login-form > label {
+.form-label {
     font-size: 16px;
     position: relative;
     font-weight: 600;
     right: 66%;
 }
 
-.login-form > input {
+.form-big-label {
+    font-size: 16px;
+    position: relative;
+    font-weight: 600;
+    right: 35.5%;
+}
+
+.register-form > input {
     width: 160%;
     height: 25px;
     padding-left: 8px;
@@ -142,7 +149,7 @@ main {
     margin-bottom: 15px;
 }
 
-.login-form > article {
+.register-form > article {
     margin-top: -13px;
     position: relative;
     font-weight: 600;
@@ -152,14 +159,15 @@ main {
     cursor: pointer;
 }
 
-.login-form > article:hover {
+.register-form > article:hover {
     font-weight: 800;
 }
 
-.login-form > button {
+.register-form > button {
     font-size: 18px;
     width: 163.5%;
     height: 30px;
+    margin-top: 18px;
     margin-bottom: 5px;
     border-radius: 8px;
     font-weight: 600;
@@ -170,7 +178,7 @@ main {
 
 }
 
-.login-form > button:hover {
+.register-form > button:hover {
     background-color: var(--color-secondary-green);
     transition: 0.5s;
 }
@@ -238,23 +246,23 @@ main {
     }
 
 
-    .login-form > label {
+    .form-label {
         right: 111%;
         font-size: 20px;
     }
+
+    .form-big-label {
+        right: 80%;
+        font-size: 20px;
+    }
     
-    .login-form > input {
+    .register-form > input {
         width: 250%;
         font-size: 20px;
         height: 30px;
     }
     
-    .login-form > article {
-        left: 87%;
-        font-size: 18px;
-    }
-    
-    .login-form > button {
+    .register-form > button {
         font-size: 20px;
         width: 253%;
         height: 35px;
@@ -287,7 +295,7 @@ main {
     }
 
     .first-container {
-        height: 70vh; 
+        height: 85vh; 
         padding-top: 0px;
         padding-bottom: 0px;
         width: 390px;
@@ -308,7 +316,7 @@ main {
         width: 125px;
         padding: 0;
         display: flex;
-        padding-top: 12vh;
+        padding-top: 20vh;
     }
 
     .first-container > p {
@@ -325,7 +333,7 @@ main {
         background-color: var(--color-gray);
         padding-top: 0px;
         padding-bottom: 0px;
-        height: 70vh; 
+        height: 85vh; 
         width: 390px;
         display: flex;
         flex-direction: column;
@@ -351,24 +359,22 @@ main {
         padding-bottom: 15px;
     }
 
-    .login-form > label {
+    .form-label {
         right: 61%;
         font-size: 18px;
+    }
 
+    .form-big-label {
+        font-size: 18px;
+        right: 29%;
     }
     
-    .login-form > input {
+    .register-form > input {
         width: 150%;
         font-size: 17px;
     }
     
-    .login-form > article {
-        left: 38%;
-        font-size: 16px;
-        padding-bottom: 25px;
-    }
-    
-    .login-form > button {
+    .register-form > button {
         width: 153%;
     }
 
