@@ -1,0 +1,18 @@
+:root {
+   --color-dark-blue: #17222C;
+   --color-dark-green: #001A0A;
+   --color-primary-green: #005E23;
+   --color-secondary-green: #007029;
+   --color-light-green: #d9ffe6;
+   --color-gray: #D6D6D6;
+   --color-white: #FFFF;
+   --color-black: #0000;
+
+}
+
+* {
+   font-family: Rajdhani, sans-serif;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
