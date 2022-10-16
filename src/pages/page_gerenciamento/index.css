@@ -35,7 +35,10 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   background-color: gray;
+   background-image: url('../../assets/background-login.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+
    height: 100vh;
 }
 .main-title {
@@ -49,7 +52,7 @@
    gap: 2rem;
    padding: 1rem;
 
-   background-color: rgb(189, 189, 189)
+   background-color: #bdbdbd;
 }
 
 /* Dieta */
@@ -58,13 +61,16 @@
    flex-direction: column;
    align-items: center;
    padding: 0.5rem;
-   background-color: blue;
+   background-color:transparent;
    
    border-radius:10px;
 }
 .diet > img {
    width: 250px;
    height: auto;
+   padding:0.5rem;
+   border-radius: 10px;
+   background-color:#969696;
 }
 .action-group {
    display: flex;
@@ -72,8 +78,18 @@
    justify-content: space-around;
    gap: 1rem;
    padding: 1rem;
-   background-color: red;
+   background-color:var(--color-primary-green);
+   border-radius: 10px;
+}
+.action-group > button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: transparent;
 }
 .action-group > button > img {
+   color:var(--color-white);
    width: 40px;
+   cursor: pointer;
+   display: inline;
 }
