@@ -1,0 +1,79 @@
+.manager-container {
+   width: 100%;
+   height: 100%;
+}
+
+/* Header Content */
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #d9d9d9;
+   padding: 5px;
+}
+.header > h1 {
+   display: inline;
+}
+.header > .menu-icon {
+   width: 45px;  
+   height: 35px;
+}
+.header > .user-content > img {
+   width: 40px;
+   height: 35px;
+}
+.user-content {
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+}
+
+/* MAIN CONTENT  */
+
+.main {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: gray;
+   height: 100vh;
+}
+.main-title {
+   margin-top: 1.5rem;
+   margin-bottom: 1.5rem;
+
+}
+.diet-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 2rem;
+   padding: 1rem;
+
+   background-color: rgb(189, 189, 189)
+}
+
+/* Dieta */
+.diet {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0.5rem;
+   background-color: blue;
+   
+   border-radius:10px;
+}
+.diet > img {
+   width: 250px;
+   height: auto;
+}
+.action-group {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   gap: 1rem;
+   padding: 1rem;
+   background-color: red;
+}
+.action-group > button > img {
+   width: 40px;
+}
