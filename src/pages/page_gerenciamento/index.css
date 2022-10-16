@@ -93,3 +93,28 @@
    cursor: pointer;
    display: inline;
 }
+
+footer {
+   background-image: linear-gradient(180deg, gray, black);
+   color: whitesmoke;
+   font-weight: 600;
+   
+   flex: 1;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.footer-text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1.5rem;
+}
+.email-nutrix {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+.img-email {
+   width: 30px;
+}
