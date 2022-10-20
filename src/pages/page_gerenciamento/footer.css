@@ -1,0 +1,48 @@
+footer {
+   width: 100%;
+   background-image: linear-gradient(180deg, gray, black);
+   color: whitesmoke;
+   font-weight: 600;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.footer-text {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1.5rem;
+}
+.email-nutrix {
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+}
+.img-email {
+   width: 30px;
+}
+footer > img {
+   width: 228px;
+   margin-left: 10px;
+}
+
+@media screen and (max-width:768px){
+   footer{ 
+      padding-top:1.5rem;
+   }
+   img {
+      width: 180px;
+   }
+}
+@media screen and (max-width:530px) {
+   footer {
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 2rem;
+   }
+   img {
+      margin-bottom: 1rem;
+   }
+
+}
