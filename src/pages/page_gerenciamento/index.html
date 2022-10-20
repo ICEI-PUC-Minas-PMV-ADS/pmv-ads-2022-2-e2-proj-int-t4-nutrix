@@ -9,156 +9,165 @@
    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
       rel="stylesheet">
    <link rel="stylesheet" href="../../styles/Global.css">
-   <link rel="stylesheet" href="./index.css">
-   <link rel="stylesheet" href="navbar.css">
+   <link rel="stylesheet" href="./header.css">
+   <link rel="stylesheet" href="./main.css">
+   <link rel="stylesheet" href="./footer.css">
+   <link rel="stylesheet" href="./menu_lateral.css">
+   <script src="../../script/menu_lateral.js" defer></script>
    <title>Gerenciamento de Dietas</title>
 </head>
 
 <body>
    <div class="manager-container">
-
       <div class="header">
-         <nav class="navbar" id="navbar">
-            <div class="navbar-item">
-               <img src="../../assets/house-icon.png" alt="Home">
-               <p>Home</p>
-            </div>
-            <div class="navbar-item">
-               <img src="../../assets/diet-icon.png" alt="New Diet">
-               <p>Nova dieta</p>
-            </div>
-            <div class="navbar-item">
-               <img src="../../assets/edit-document-icon.png" alt="Edit Document">
-               <p>Editar Documento</p>
-            </div>
-            <div class="navbar-item">
-               <img src="../../assets/timeline-icon.png" alt="Timeline">
-               <p>Linha do Tempo</p>
-            </div>
-            <div class="navbar-item">
-               <img src="../../assets/report-icon.png" alt="Report">
-               <p>Relatorio</p>
-            </div>
-         </nav>
 
-         <img class="menu-icon" src="../../assets/closed-menu-icon.png" alt="btn-menu" />
+         <!-- Rever -->
+         <img id="menubtn" class="menu-icon" src="../../assets/opened-menu-icon.png" alt="btn-menu" onclick="toggleBtnState()" />
+         <!-- Rever -->
+
+
          <h1>Nutrix</h1>
 
          <div class="user-content">
             <p>Fulano A</p>
             <img src="../../assets/user-icon.png" alt="user">
          </div>
+
       </div>
 
-      
+      <nav class="navbar" id="navbar">
+         <div class="icons-img">
+            <img src="../../assets/house-icon.png" alt="">
+            <img src="../../assets/diet-icon.png" alt="">
+            <img src="../../assets/edit-document-icon.png" alt="">
+            <img src="../../assets/timeline-icon.png" alt="">
+            <img src="../../assets/report-icon.png" alt="">
+         </div>
+         <div class="text-icon">
+            <p>Home</p>
+            <p>Nova Dieta</p>
+            <p>Gerar Dietas</p>
+            <p>Linha do tempo</p>
+            <p>Relatórios</p>
+         </div>
+      </nav>
+
 
       <main class="main">
          <div class="main-title">
             <h2>Gerenciamento de Dietas</h2>
          </div>
-         <div class="diet-container" id="diet-container">
+         <div class="manager-diet-container" id="diet-container">
 
-            <div class="diet">
-               <!-- Imagem -->
-               <img src="../../assets/logo.png" alt="">
-               <p>Dieta 1</p>
-               <div class="action-group">
-                  <button>
-                     <img src="../../assets/info-icon.png" alt="info">
-                  </button>
-                  <button>
-                     <img src="../../assets/diet-icon.png" alt="">
-                  </button>
-                  <button>
-                     <img src="../../assets/edit-document-icon.png" alt="edit diet">
-                  </button>
+            <div class="diet-container">
+               <div class="diet">
+                  <!-- Imagem -->
+                  <img src="../../assets/logo.png" alt="">
+                  <p>Dieta 1</p>
+                  <div class="action-group">
+                     <button>
+                        <img src="../../assets/info-icon.png" alt="info">
+                     </button>
+                     <button>
+                        <img src="../../assets/edit-document-icon.png" alt="edit diet">
+                     </button>
+                     <button>
+                        <img src="../../assets/diet-icon.png" alt="">
+                     </button>
+                  </div>
+               </div>
+               <div class="diet">
+                  <!-- Imagem -->
+                  <img src="../../assets/logo.png" alt="">
+                  <p>Dieta 2</p>
+                  <div class="action-group">
+                     <button>
+                        <img src="../../assets/info-icon.png" alt="info">
+                     </button>
+                     <button>
+                        <img src="../../assets/edit-document-icon.png" alt="edit diet">
+                     </button>
+                     <button>
+                        <img src="../../assets/diet-icon.png" alt="">
+                     </button>
+                  </div>
+               </div>
+               <div class="diet">
+                  <!-- Imagem -->
+                  <img src="../../assets/logo.png" alt="">
+                  <p>Dieta 3</p>
+                  <div class="action-group">
+                     <button>
+                        <img src="../../assets/info-icon.png" alt="info">
+                     </button>
+                     <button>
+                        <img src="../../assets/edit-document-icon.png" alt="edit diet">
+                     </button>
+                     <button>
+                        <img src="../../assets/diet-icon.png" alt="">
+                     </button>
+                  </div>
+               </div>
+               <div class="diet">
+                  <!-- Imagem -->
+                  <img src="../../assets/logo.png" alt="">
+                  <p>Dieta 4</p>
+                  <div class="action-group">
+                     <button>
+                        <img src="../../assets/info-icon.png" alt="info">
+                     </button>
+                     <button>
+                        <img src="../../assets/edit-document-icon.png" alt="edit diet">
+                     </button>
+                     <button>
+                        <img src="../../assets/diet-icon.png" alt="">
+                     </button>
+                  </div>
+               </div>
+               <div class="diet">
+                  <!-- Imagem -->
+                  <img src="../../assets/logo.png" alt="">
+                  <p>Dieta 5</p>
+                  <div class="action-group">
+                     <button>
+                        <img src="../../assets/info-icon.png" alt="info">
+                     </button>
+                     <button>
+                        <img src="../../assets/edit-document-icon.png" alt="edit diet">
+                     </button>
+                     <button>
+                        <img src="../../assets/diet-icon.png" alt="">
+                     </button>
+                  </div>
+               </div>
+               <div class="diet">
+                  <!-- Imagem -->
+                  <img src="../../assets/logo.png" alt="">
+                  <p>Dieta 6</p>
+                  <div class="action-group">
+                     <button>
+                        <img src="../../assets/info-icon.png" alt="info">
+                     </button>
+                     <button>
+                        <img src="../../assets/edit-document-icon.png" alt="edit diet">
+                     </button>
+                     <button>
+                        <img src="../../assets/diet-icon.png" alt="">
+                     </button>
+                  </div>
                </div>
             </div>
-            <div class="diet">
-               <!-- Imagem -->
-               <img src="../../assets/logo.png" alt="">
-               <p>Dieta 1</p>
-               <div class="action-group">
-                  <button>
-                     <img src="../../assets/info-icon.png" alt="info">
-                  </button>
-                  <button>
-                     <img src="../../assets/diet-icon.png" alt="">
-                  </button>
-                  <button>
-                     <img src="../../assets/edit-document-icon.png" alt="edit diet">
-                  </button>
-               </div>
-            </div>
-            <div class="diet">
-               <!-- Imagem -->
-               <img src="../../assets/logo.png" alt="">
-               <p>Dieta 1</p>
-               <div class="action-group">
-                  <button>
-                     <img src="../../assets/info-icon.png" alt="info">
-                  </button>
-                  <button>
-                     <img src="../../assets/diet-icon.png" alt="">
-                  </button>
-                  <button>
-                     <img src="../../assets/edit-document-icon.png" alt="edit diet">
-                  </button>
-               </div>
-            </div>
-            <div class="diet">
-               <!-- Imagem -->
-               <img src="../../assets/logo.png" alt="">
-               <p>Dieta 1</p>
-               <div class="action-group">
-                  <button>
-                     <img src="../../assets/info-icon.png" alt="info">
-                  </button>
-                  <button>
-                     <img src="../../assets/diet-icon.png" alt="">
-                  </button>
-                  <button>
-                     <img src="../../assets/edit-document-icon.png" alt="edit diet">
-                  </button>
-               </div>
-            </div>
-            <div class="diet">
-               <!-- Imagem -->
-               <img src="../../assets/logo.png" alt="">
-               <p>Dieta 1</p>
-               <div class="action-group">
-                  <button>
-                     <img src="../../assets/info-icon.png" alt="info">
-                  </button>
-                  <button>
-                     <img src="../../assets/diet-icon.png" alt="">
-                  </button>
-                  <button>
-                     <img src="../../assets/edit-document-icon.png" alt="edit diet">
-                  </button>
-               </div>
-            </div>
-            <div class="diet">
-               <!-- Imagem -->
-               <img src="../../assets/logo.png" alt="">
-               <p>Dieta 1</p>
-               <div class="action-group">
-                  <button>
-                     <img src="../../assets/info-icon.png" alt="info">
-                  </button>
-                  <button>
-                     <img src="../../assets/diet-icon.png" alt="">
-                  </button>
-                  <button>
-                     <img src="../../assets/edit-document-icon.png" alt="edit diet">
-                  </button>
-               </div>
+            <div class="btn-actions">
+               <button class="especial-btn">Voltar</button>
+               <button>1</button>
+               <button>2</button>
+               <button class="especial-btn2">Proxima</button>
             </div>
          </div>
       </main>
 
       <footer>
-         <img src="../../assets/logo.png" alt="logo Nutrix">
+         <img class="footer-img" src="../../assets/logo.png" alt="logo Nutrix">
          <div class="footer-text">
             <p class="email-nutrix"> <img class="img-email" src="../../assets/email-icon.svg" alt="">
                NutrixDietas@gmail.com</p>

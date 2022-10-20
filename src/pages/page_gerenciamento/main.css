@@ -1,0 +1,160 @@
+.manager-container {
+   width: 100%;
+   height: 100%;
+}
+
+
+/* MAIN CONTENT  */
+
+.main {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #E8E8E8;
+
+   height: aut;
+}
+
+.main-title {
+   margin-top: 1.5rem;
+   margin-bottom: 1.5rem;
+
+}
+
+.manager-diet-container {
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 1rem;
+}
+
+.btn-actions {
+   display: flex;
+   align-items: flex-end;
+   justify-content: end;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+}
+
+.btn-actions>button {
+   padding: 0.3rem;
+   border: 1px solid black;
+   cursor: pointer;
+}
+
+.especial-btn {
+   border-radius: 0.4rem 0 0 0.4rem;
+}
+
+.especial-btn2 {
+   border-radius: 0 0.4rem 0.4rem 0;
+}
+
+.diet-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 2rem;
+   padding: 1rem;
+
+   background-color: #8DBA8B;
+   border-radius: 1rem;
+}
+
+/* Dieta */
+.diet {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0.5rem;
+   background-color: transparent;
+
+   border-radius: 10px;
+}
+
+.diet>img {
+   width: 160px;
+   height: auto;
+   padding: 0.5rem;
+   border-radius: 10px;
+   background-color: #81ac7e;
+}
+
+.action-group {
+   width: 100%;
+   background-color: #589A55;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   gap: 1rem;
+   padding: 0.1rem;
+   border-radius: 10px;
+}
+
+.action-group>button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: transparent;
+   border-radius: 6px;
+   padding: 0.5rem;
+}
+
+.action-group>button>img {
+   color: var(--color-white);
+   width: 40px;
+   cursor: pointer;
+   display: inline;
+}
+
+@media (max-width:866px) {
+   .diet-container {
+      grid-template-columns: repeat(2, 2fr);
+   }
+
+   .action-group>button {
+      padding: 0.3rem;
+   }
+
+   .diet>img {
+      width: 100px;
+   }
+
+   .action-group>button>img {
+      width: 40px;
+   }
+}
+
+@media (max-width:660px) {
+   .diet-container {
+      grid-template-columns: repeat(1, 1fr);
+      background-color: transparent;
+   }
+
+   .diet {
+      background-color: #BDBDBD;
+      padding: 1.5rem;
+   }
+
+   .manager-diet-container {
+      align-items: center;
+      justify-content: center;
+   }
+
+   .btn-actions {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+   }
+
+   .action-group>button {
+      padding: 0.2rem;
+   }
+
+   .diet>img {
+      width: 80px;
+   }
+
+   .action-group>button>img {
+      width: 30px;
+   }
+}

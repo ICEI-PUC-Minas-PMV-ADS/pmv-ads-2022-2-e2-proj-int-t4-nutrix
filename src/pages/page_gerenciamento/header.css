@@ -1,0 +1,24 @@
+/* Header Content */
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #386536;
+   padding: 1rem;
+}
+.header > h1 {
+   display: inline;
+}
+.header > .menu-icon {
+   width: 45px;  
+   height: 35px;
+}
+.header > .user-content > img {
+   width: 40px;
+   height: 35px;
+}
+.user-content {
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+}
