@@ -1,9 +1,10 @@
 let btn_menu = document.querySelector("#menubtn");
-let navbar = document.querySelector(".navbar");
+let navbar = document.querySelector("#navbar")
+let text_icon = document.querySelector(".text-icon");
 
-let showSidebar = false;
+let showSidebar = true;
 
-btn_menu.addEventListener('click', () => {
+function toggleBtnState() {
    showSidebar = !showSidebar;
    console.log(showSidebar)
 
@@ -12,14 +13,18 @@ btn_menu.addEventListener('click', () => {
       closedIcon: "../../assets/closed-menu-icon.png"
    }
 
-   if (showSidebar) {
-      navbar.style.marginLeft = '0vw'
-      navbar.style.animationName = 'showSidebar'
-      btn_menu.setAttribute("src", iconsPath.openIcon)
+   if (showSidebar == false) {
+      navbar.style.width = "5vw"
+      text_icon.style.marginLeft = '-100vw'
+      text_icon.style.animationName = ''
+      btn_menu.setAttribute("src", iconsPath.closedIcon)
+
    }
    else {
-      navbar.style.marginLeft = '-100vw'
-      navbar.style.animationName = ''
-      btn_menu.setAttribute("src", iconsPath.closedIcon)
+      navbar.style.width = "10vw"
+      text_icon.style.marginLeft = '0vw'
+      text_icon.style.animationName = 'showSidebar'
+      btn_menu.setAttribute("src", iconsPath.openIcon)
+
    }
-})
+};

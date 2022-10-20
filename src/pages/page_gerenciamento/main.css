@@ -72,7 +72,7 @@
 }
 
 .diet>img {
-   width: 250px;
+   width: 160px;
    height: auto;
    padding: 0.5rem;
    border-radius: 10px;
@@ -86,7 +86,7 @@
    align-items: center;
    justify-content: space-around;
    gap: 1rem;
-   padding: 1rem;
+   padding: 0.1rem;
    border-radius: 10px;
 }
 
@@ -106,19 +106,11 @@
    display: inline;
 }
 
-@media (max-width:1024px) {
-   .diet>img {
-      width: 160px;
-   }
-   .action-group>button {
-      padding: 0.1rem;
-   }
-}
-
-@media (max-width:740px) {
+@media (max-width:866px) {
    .diet-container {
       grid-template-columns: repeat(2, 2fr);
    }
+
    .action-group>button {
       padding: 0.3rem;
    }
@@ -132,29 +124,33 @@
    }
 }
 
-@media (max-width:560px) {
+@media (max-width:660px) {
    .diet-container {
       grid-template-columns: repeat(1, 1fr);
       background-color: transparent;
    }
+
    .diet {
       background-color: #BDBDBD;
       padding: 1.5rem;
    }
+
    .manager-diet-container {
       align-items: center;
       justify-content: center;
    }
+
    .btn-actions {
       width: 100%;
       align-items: center;
       justify-content: center;
    }
+
    .action-group>button {
       padding: 0.2rem;
    }
-   
-   .diet > img {
+
+   .diet>img {
       width: 80px;
    }
 
