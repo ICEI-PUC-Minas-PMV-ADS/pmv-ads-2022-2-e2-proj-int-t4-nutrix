@@ -35,9 +35,7 @@
    display: flex;
    flex-direction: column;
    align-items: center;
-   background-image: url('../../assets/background-login.png');
-   background-repeat: no-repeat;
-   background-size: cover;
+   background-color: aliceblue;
 
    height: 100vh;
 }
@@ -51,8 +49,8 @@
    grid-template-columns: repeat(3, 1fr);
    gap: 2rem;
    padding: 1rem;
-
    background-color: #bdbdbd;
+   border-radius: 10px;
 }
 
 /* Dieta */
@@ -66,7 +64,7 @@
    border-radius:10px;
 }
 .diet > img {
-   width: 250px;
+   width: 180px;
    height: auto;
    padding:0.5rem;
    border-radius: 10px;
@@ -117,4 +115,23 @@ footer {
 }
 .img-email {
    width: 30px;
+}
+
+@media screen and (max-width:768px){
+   .diet-container {
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .diet > img {
+      width: 120px;
+   }
+}
+@media screen and (max-width: 530px) {
+   .diet-container {
+      grid-template-columns: repeat(1,1fr);
+      background-color: transparent;
+   }
+   .diet {
+      background-color: #bdbdbd;
+      padding: 1rem;
+   }
 }
