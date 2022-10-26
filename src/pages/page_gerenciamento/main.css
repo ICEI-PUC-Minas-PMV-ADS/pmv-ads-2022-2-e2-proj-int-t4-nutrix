@@ -53,10 +53,9 @@
 .diet-container {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   gap: 2rem;
-   padding: 1rem;
+   padding: 0.5rem;
 
-   background-color: #8DBA8B;
+   background-color: #CBDBCA;
    border-radius: 1rem;
 }
 
@@ -105,18 +104,44 @@
    cursor: pointer;
    display: inline;
 }
-
-@media (max-width:866px) {
+@media (max-width:1080px) {
+   .diet-container {
+      padding: 0.4rem;
+      gap: 0.5rem;
+   }
+   .action-group > button {
+      padding: 0.2rem;
+   }
+}
+@media (max-width:986px) {
    .diet-container {
       grid-template-columns: repeat(2, 2fr);
    }
 
    .action-group>button {
-      padding: 0.3rem;
+      padding: 0.2rem;
    }
 
    .diet>img {
-      width: 100px;
+      width: 120px;
+   }
+
+   .action-group>button>img {
+      width: 40px;
+   }
+}
+
+@media (max-width:786) {
+   .diet-container {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   .action-group>button {
+      padding: 0.2rem;
+   }
+
+   .diet>img {
+      width: 80px;
    }
 
    .action-group>button>img {
@@ -151,7 +176,7 @@
    }
 
    .diet>img {
-      width: 80px;
+      width: 70px;
    }
 
    .action-group>button>img {
