@@ -1,0 +1,169 @@
+.manager-container {
+    width: 100%;
+    height: 100%;
+ }
+ 
+ /* Header Content */
+ .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d9d9d9;
+    padding: 5px;
+ }
+ .header > h1 {
+    display: inline;
+ }
+ .header > .menu-icon {
+    width: 45px;  
+    height: 35px;
+ }
+ .header > .user-content > img {
+    width: 40px;
+    height: 35px;
+ }
+ .user-content {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+ }
+ 
+ /* MAIN CONTENT  */
+ 
+ .main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../assets/background-login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+ }
+ .main-title {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: white;
+ }
+
+ .relatorios {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   gap: 5vw;
+ }
+
+.header-relatorios {
+   background-color: #888888;
+   padding: 1rem 2rem;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.card-relatorio {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #E4E4E4;
+   width: max-content;
+   border-radius: 10px;
+   cursor: pointer;
+}
+
+.card-relatorio > img {
+   padding: 25px;
+}
+
+
+ footer {
+    background-image: linear-gradient(180deg, gray, black);
+    color: whitesmoke;
+    font-weight: 600;
+    
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+ }
+ .email-nutrix {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+ }
+ .img-email {
+    width: 30px;
+ }
+ 
+ .diet-container {
+   display: flex;
+   flex-direction: column;
+   width: 40vw;
+   border-radius: 10px;
+   padding-bottom: 1rem;
+   background-color: #bdbdbd;
+ }
+
+ .action-header {
+   background-color: #888888;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   padding: 0.5rem;
+}
+
+.action-header > h3 {
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+   margin-left: auto;
+   margin-right: auto;
+}
+ 
+ .back-arrow {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+ }
+
+.user-data {
+   text-align: end;
+}
+
+ .relatorio-dietas {
+   background-color: white;
+   max-width: 25vw;
+   margin: 5vh 0;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 4rem;
+   box-shadow: black 0px 2px 2px;
+   border-radius: 10px;
+   text-align: center;
+ }
+
+.relatorio-dietas > span {
+   display: block;
+   text-align: center;
+   font-size: 20px;
+   font-weight: bold;
+}
+.relatorio-dietas > h1 {
+   font-size: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+   .diet-container {
+      width: 90vw;
+   }
+}
+   
