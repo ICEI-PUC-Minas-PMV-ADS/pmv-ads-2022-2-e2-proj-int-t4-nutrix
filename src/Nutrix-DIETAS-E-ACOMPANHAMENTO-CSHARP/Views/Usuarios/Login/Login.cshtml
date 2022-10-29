@@ -1,0 +1,66 @@
+﻿@model Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.Usuario
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+
+
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
+
+
+    <title>Nutrix Dietas e Acompanhamento</title>
+</head>
+<body>
+    <main>
+        <div class="first-container">
+            <h1>NutriX</h1>
+            <h2>Dietas e acompanhamentos </h2>
+            <img src="~/assets/logo.png" alt="logo Nutrix"/>
+            <p>Dietas com segurança e acompanhamento da evolução é só no Nutrix.</p>
+        </div>
+        <div class="second-container">
+            <h1>Nutrix</h1>
+            <h3>Dietas e acompanhamentos </h3>
+            <article>Seja bem-vindo(a)!</article>
+
+            <h4 class="wrong-message"> @ViewBag.Message </h4>
+
+            <form asp-action="Login" class="login-form">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <label asp-for="Email">
+                    E-mail
+                </label>
+                <span asp-validation-for="Email" class="text-danger"></span>
+                <input asp-for="Email" placeholder="Seu e-mail">
+
+                <label asp-for="Senha">Senha</label>
+                <span asp-validation-for="Senha" class="text-danger"></span>
+                <input asp-for="Senha" placeholder="******">
+
+                <article>Esqueceu a senha?</article>
+
+                <button type="submit">
+                    Entrar
+                </button>
+                <div class="register-offer">
+                    <article>Novo por aqui? </article>
+                    <a asp-area="" asp-controller="Usuarios" asp-action="Register">
+                        Registre-se
+                    </a>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

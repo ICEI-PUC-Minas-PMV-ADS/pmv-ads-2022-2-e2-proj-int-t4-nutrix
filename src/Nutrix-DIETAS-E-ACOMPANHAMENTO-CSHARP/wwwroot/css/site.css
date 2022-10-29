@@ -1,0 +1,14 @@
+html {
+    height: 100%;
+}
+
+* {
+    font-family: Rajdhani, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.content {
+    height: 100%;
+}

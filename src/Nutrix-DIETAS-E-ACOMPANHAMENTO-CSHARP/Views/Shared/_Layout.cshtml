@@ -1,0 +1,48 @@
+﻿
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Nutrix Dietas e Acompanhamentos</title>
+    <link rel="icon" href="~/Views/Assets/head-icon.svg" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+    @if (User.Identity.IsAuthenticated)
+
+    {
+
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP</a>
+
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+
+        <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
+
+        <div>
+            Olá, @User.Identity.Name
+        </div>
+
+        <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
+
+    }
+    
+    <div role="main" class="content">
+        @RenderBody()
+
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</html>
