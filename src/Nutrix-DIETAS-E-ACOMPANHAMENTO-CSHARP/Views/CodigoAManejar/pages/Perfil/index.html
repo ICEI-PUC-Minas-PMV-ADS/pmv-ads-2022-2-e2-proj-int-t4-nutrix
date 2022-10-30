@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/head-icon.svg" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../styles/header.css">
+    <link rel="stylesheet" href="../../styles/footer.css">
+    <link rel="stylesheet" href="../../styles/menu_lateral.css">
+    <script src="../../script/menu_lateral.js" defer></script>
+    <title>Editar Perfil</title>
+</head>
+<body>
+    <header class="header">
+
+        <!-- Rever -->
+        <img id="menubtn" class="menu-icon" src="../../assets/opened-menu-icon.png" alt="btn-menu"
+            onclick="toggleBtnState()" />
+        <!-- Rever -->
+
+
+        <h1>Nutrix</h1>
+
+        <div class="user-content">
+            <p>Fulano A</p>
+            <img src="../../assets/user-icon.png" alt="user">
+        </div>
+
+    </header>
+    <!-- <nav class="navbar" id="navbar">
+        <div class="nav-item">
+            <img src="../../assets/house-icon.png" alt="">
+            <p class="text-icon">Home</pc>
+        </div>
+        <div class="nav-item">
+            <img src="../../assets/diet-icon.png" alt="">
+            <p class="text-icon1">Nova Dieta</p>
+        </div>
+        <div class="nav-item">
+
+            <img src="../../assets/edit-document-icon.png" alt="">
+            <p class="text-icon2">Gerar Dietas</p>
+        </div>
+        <div class="nav-item"> <img src="../../assets/timeline-icon.png" alt="">
+            <p class="text-icon3">Linha do tempo</p>
+        </div>
+        <div class="nav-item">
+            <img src="../../assets/report-icon.png" alt="">
+            <p class="text-icon4">Relatórios</p>
+        </div>
+    </nav> --> 
+    <div>
+        <h1 id="titulo">Editar Perfil</h1>
+    </div>
+
+    <form>
+        <fieldset class="grupo1">
+            
+            <h2 id="titulo2"><img src="../../assets/edit-document-icon.png"><div class="title2"> Atualize os dados base do seu perfil</div></h2>
+            
+            <div class="campos">
+            <div class="campo">
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div class="campo">
+                <label>E-mail</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="campo">
+                <label>Altura</label>
+                <input type="number" name="altura" id="altura" placeholder="cm" min="140" max="240">
+            </div>
+            <div class="campo">
+                <label>Peso</label>
+                <input type="number" name="peso" id="peso" placeholder="kg" min="30" max="300">
+            </div>
+            <div class="campo">
+                <label>Senha</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <div class="campo">
+                <label>Confirmar Senha</label>
+                <input type="password" name="confsenha" id="confsenha">
+            </div>
+            <div class="campo">
+                <label>Data de nascimento</label>
+                <input type="date" name="data" id="data">
+            </div>
+            <div class="campo">
+                <label for="senioridade">Sexo biológico</label>
+                <select id="sexobiologico">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                </select>
+            </div>
+            </div>
+        </fieldset><br>
+
+        <fieldset class="grupo2">
+            
+            <h2 id="titulo2"><img src="../../assets/info-icon.png"><div class="title2">Dados restritivos</div></h2>
+            <div class="campo2">
+               
+                <label class="label2">Seleciona suas restrições alimentares</label><br>
+                
+               <div>
+                <input type="checkbox" id="restri1" name="restri1" value="lactose">
+                <label for="restri1">Lactose</label>
+               </div>
+               <div>
+                <input type="checkbox" id="restri2" name="restri2" value="frutosdomar">
+                <label for="restri2">Frutos do mar</label>
+               </div>
+               <div>
+                <input type="checkbox" id="restri3" name="restri3" value="acucar">
+                <label for="restri3">Açúcar (diabetes)</label>
+               </div>
+               <div>
+                <input type="checkbox" id="restri4" name="restri4" value="gluten">
+                <label for="restri4">Glúten</label>
+               </div>
+            </div>
+        </fieldset><br>
+        <button class="btn" onclick="" type="button">
+            <div>Atualizar</div>
+        </button>
+    </form>
+    <footer>
+        <img class="footer-img" src="../../assets/logo.png" alt="logo Nutrix">
+        <div class="footer-text">
+            <p class="email-nutrix"> <img class="img-email" src="../../assets/email-icon.svg" alt="">
+                NutrixDietas@gmail.com</p>
+            <p>copyright @ Todos os direitos reservados</p>
+            <p>Desenvolvido por alunos da PUC MINAS - 2022</p>
+        </div>
+        <div class="wrapper">
+
+        </div>
+    </footer>
+</body>
+</html>
