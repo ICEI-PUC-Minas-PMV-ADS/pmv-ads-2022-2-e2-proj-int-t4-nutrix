@@ -2,7 +2,96 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="~/css/Home.css" asp-append-version="true" />
+    <title>Nutrix Dietas e Acompanhamento </title>
+</head>
+
+<body>
+
+    <main>
+        <h1 class="main-title">
+            Bem-Vindo @User.Identity.Name
+        </h1>
+        <nav>
+            <div class="block">
+                <div class="new-diet">
+                    <div class="new-diet-header">
+                        <img src="../../assets/new-icon.png" alt="ícone new">
+                        <h2>Novas dietas cadastradas!</h2>
+                        <div></div>
+                    </div>
+                    <div class="new-diet-content">
+                        <div class="new-diet-card">
+                            <img src="../../assets/diet-icon.png" alt="ícone new">
+                            <p>dieta n</p>
+                        </div>
+                        <div class="new-diet-card">
+                            <img src="../../assets/diet-icon.png" alt="ícone new">
+                            <p>dieta n</p>
+                        </div>
+                        <div class="new-diet-card">
+                            <img src="../../assets/diet-icon.png" alt="ícone new">
+                            <p>dieta n</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-att">
+                    <div class="last-att-header">
+                        <img src="../../assets/reload-icon.png" alt="ícone new">
+                        <h2>Última atualização no perfil</h2>
+                        <div></div>
+                    </div>
+                    <div class="last-att-content">
+                        <div class="data">
+                            <div></div>
+                            <div class="data-p">
+                                <p>7/10/2022</p>
+                            </div>
+                            <div></div>
+                        </div>
+                        <div class="dias-atras">
+                            <div></div>
+                            <div class="dias-atras-p">
+                                <p>10 dias atrás</p>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="calc-base">
+                    <div class="calc-base-header">
+                        <img src="../../assets/calculator-icon.png" alt="ícone new">
+                        <h2>Base de cálculo</h2>
+                        <div></div>
+                    </div>
+                    <div class="calc-base-content">
+                        <p>Deseja visualizar a base de cálculo utilizada nas dietas? Basta clicar abaixo</p>
+                        <div class="bottom">
+                            <div></div>
+                            <div class="visualizar">
+                                <p>Visualizar</p>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hint">
+                    <div class="hint-header">
+                        <img src="../../assets/info-icon.png" alt="ícone new">
+                        <h2>Dica:</h2>
+                        <div></div>
+                    </div>
+                    <div class="hint-content">
+                        <p>Coma de 3 em 3 horas</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </main>
+
+</body>
+
+</html>

@@ -51,5 +51,7 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models
 
         public bool IsAlergicoFrutosMar { get; set; }
 
+        public ICollection<DadoPessoal> DadosPessoais { get; set; }
+
     }
 }
