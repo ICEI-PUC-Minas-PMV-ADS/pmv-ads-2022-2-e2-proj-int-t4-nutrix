@@ -11,3 +11,5 @@ Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identi
 > **Links Úteis**:
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
 [Teste_Funcional_Nutrix.zip](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t4-nutrix/files/9897621/Teste_Funcional_Nutrix.zip)
+
+![cats](https://user-images.githubusercontent.com/105240089/198921282-c16226b4-9f4b-4c77-80fa-0609285e73b3.jpg)
