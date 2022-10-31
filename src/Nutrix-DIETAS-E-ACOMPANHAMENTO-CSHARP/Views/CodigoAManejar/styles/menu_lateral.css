@@ -12,7 +12,7 @@
    min-width: 3rem;
    max-width: 8rem;
 
-   height: 100vh;
+   height: 90vh;
    padding-right: 1rem;
    padding-top: 1.5rem;
 
@@ -24,7 +24,7 @@
    display: flex;
    align-items: center;
    justify-content: flex-start;
-   padding-left: 0.5rem;
+   padding-left: 1rem;
    gap: 1rem;
 }
 .nav-item > img {
@@ -38,5 +38,11 @@
    }
    .nav-item > img {
       width: 30px;
+   }
+}
+@media (max-width:540px) {
+   .nav-item > img{
+      display: none;
+      background-color: red;
    }
 }
