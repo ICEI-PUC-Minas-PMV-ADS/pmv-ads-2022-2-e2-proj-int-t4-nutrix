@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP"
   ],
-  "SelectedNode": "\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP.sln",
+  "SelectedNode": "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP.sln",
   "PreviewInSolutionExplorer": false
 }
