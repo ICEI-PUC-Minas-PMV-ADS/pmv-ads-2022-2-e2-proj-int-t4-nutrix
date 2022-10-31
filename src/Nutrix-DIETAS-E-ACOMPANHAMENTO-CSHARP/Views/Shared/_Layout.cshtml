@@ -1,9 +1,4 @@
-﻿
-
-
-
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -11,6 +6,9 @@
     <title>@ViewData["Title"] - Nutrix Dietas e Acompanhamentos</title>
     <link rel="icon" href="~/Views/Assets/head-icon.svg" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/menu_lateral.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -18,22 +16,65 @@
 </head>
 
 
-    @if (User.Identity.IsAuthenticated)
+    @if (User.Identity.IsAuthenticated) {
 
-    {
+    <header class="header">
 
-        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP</a>
+        <!-- Rever -->
+        <img id="menubtn" class="menu-icon" src="../../assets/opened-menu-icon.png" alt="btn-menu"
+            onclick="toggleBtnState()" />
+        <!-- Rever -->
 
-        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Nutrix</a>
 
-        <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>
+        <div class="user-content" onclick="openPerfilMenu()">
+            <p>@User.Identity.Name</p>
+            <img src="./assets/user-icon.png" alt="user">
 
-        <div>
-            Olá, @User.Identity.Name
+            <div class="user-options">
+                <a class="user-option" asp-area="" asp-controller="Usuarios" asp-action="Logout">
+                    <img src="./assets/loggof-icon.png" alt="loggof">
+                    <p>Sair</p>
+                </a>
+
+            </div>
         </div>
 
-        <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
 
+    </header>
+
+        <nav class="navbar" id="navbar">
+
+            <a class="nav-item" asp-area="" asp-controller="Home" asp-action="Index">
+                <img src="./assets/house-icon.png" alt="">
+                <p class="text-icon">Home</p>
+            </a>
+
+            <div class="nav-item">
+                <img src="./assets/diet-icon.png" alt="">
+                <p class="text-icon1">Nova Dieta</p>
+            </div>
+            <div class="nav-item">
+
+                <img src="./assets/edit-document-icon.png" alt="">
+                <p class="text-icon2">Gerar Dietas</p>
+            </div>
+            <div class="nav-item">
+                <img src="./assets/timeline-icon.png" alt="">
+                <p class="text-icon3">Linha do tempo</p>
+            </div>
+            <div class="nav-item">
+                <img src="./assets/report-icon.png" alt="">
+                <p class="text-icon4">Relatórios</p>
+            </div>
+
+        </nav>
+
+
+       @* <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>*@
+
+
+        
     }
     
     <div role="main" class="content">
@@ -42,7 +83,24 @@
     </div>
 
 
+    @if (User.Identity.IsAuthenticated) {
+        <footer>
+            <img class="footer-img" src="./assets/logo.png" alt="logo Nutrix">
+            <div class="footer-text">
+                <p class="email-nutrix">
+                    <img class="img-email" src="./assets/email-icon.svg" alt="">
+                    NutrixDietas@gmail.com
+                </p>
+                <p>copyright Todos os direitos reservados</p>
+                <p>Desenvolvido por alunos da PUC MINAS - 2022</p>
+            </div>
+            <div class="wrapper">
+            </div>
+        </footer>
+    }
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/menu_lateral.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </html>

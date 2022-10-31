@@ -9,42 +9,13 @@
 
   <ItemGroup>
     <Compile Remove="Views\Usuarios\Login\NewFolder\**" />
-    <Compile Remove="Views\Usuarios\NewFolder\**" />
     <Compile Remove="wwwroot\NewFolder\**" />
     <Content Remove="Views\Usuarios\Login\NewFolder\**" />
-    <Content Remove="Views\Usuarios\NewFolder\**" />
     <Content Remove="wwwroot\NewFolder\**" />
     <EmbeddedResource Remove="Views\Usuarios\Login\NewFolder\**" />
-    <EmbeddedResource Remove="Views\Usuarios\NewFolder\**" />
     <EmbeddedResource Remove="wwwroot\NewFolder\**" />
     <None Remove="Views\Usuarios\Login\NewFolder\**" />
-    <None Remove="Views\Usuarios\NewFolder\**" />
     <None Remove="wwwroot\NewFolder\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Remove="wwwroot\assets\arrow-left.png" />
-    <Content Remove="wwwroot\assets\background-login.jpeg" />
-    <Content Remove="wwwroot\assets\background-login.png" />
-    <Content Remove="wwwroot\assets\background-login.svg" />
-    <Content Remove="wwwroot\assets\calculator-icon.png" />
-    <Content Remove="wwwroot\assets\closed-menu-icon.png" />
-    <Content Remove="wwwroot\assets\diet-icon.png" />
-    <Content Remove="wwwroot\assets\edit-document-icon.png" />
-    <Content Remove="wwwroot\assets\email-icon.svg" />
-    <Content Remove="wwwroot\assets\head-icon.svg" />
-    <Content Remove="wwwroot\assets\heart.png" />
-    <Content Remove="wwwroot\assets\house-icon.png" />
-    <Content Remove="wwwroot\assets\info-icon.png" />
-    <Content Remove="wwwroot\assets\logo.png" />
-    <Content Remove="wwwroot\assets\meal.png" />
-    <Content Remove="wwwroot\assets\new-icon.png" />
-    <Content Remove="wwwroot\assets\opened-menu-icon.png" />
-    <Content Remove="wwwroot\assets\reload-icon.png" />
-    <Content Remove="wwwroot\assets\report-icon.png" />
-    <Content Remove="wwwroot\assets\timeline-icon.png" />
-    <Content Remove="wwwroot\assets\user-icon.png" />
-    <Content Remove="wwwroot\assets\weight.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -58,19 +29,20 @@
     <None Include="wwwroot\assets\edit-document-icon.png" />
     <None Include="wwwroot\assets\email-icon.svg" />
     <None Include="wwwroot\assets\head-icon.svg" />
-    <None Include="wwwroot\assets\heart.png" />
     <None Include="wwwroot\assets\house-icon.png" />
     <None Include="wwwroot\assets\info-icon.png" />
     <None Include="wwwroot\assets\logo.png" />
-    <None Include="wwwroot\assets\meal.png" />
     <None Include="wwwroot\assets\new-icon.png" />
     <None Include="wwwroot\assets\opened-menu-icon.png" />
     <None Include="wwwroot\assets\reload-icon.png" />
     <None Include="wwwroot\assets\report-icon.png" />
     <None Include="wwwroot\assets\timeline-icon.png" />
     <None Include="wwwroot\assets\user-icon.png" />
-    <None Include="wwwroot\assets\weight.png" />
+    <None Include="wwwroot\css\footer.css" />
+    <None Include="wwwroot\css\header.css" />
     <None Include="wwwroot\css\Login.css" />
+    <None Include="wwwroot\css\menu_lateral.css" />
+    <None Include="wwwroot\js\menu_lateral.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -85,6 +57,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Views\CodigoAManejar\script\" />
     <Folder Include="Views\PaginasPendentes\" />
   </ItemGroup>
 

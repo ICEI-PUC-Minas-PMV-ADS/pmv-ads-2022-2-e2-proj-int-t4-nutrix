@@ -1,0 +1,62 @@
+/* Header Content */
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #005C53;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   padding-right: 1rem;
+   padding-left: 1rem;
+}
+.header > a {
+   display: inline;
+   font-weight: 700;
+   text-decoration: none;
+   font-size: 23px;
+   color: #ECF9E6;
+}
+.header > .menu-icon {
+   width: 30px;
+   cursor: pointer;
+}
+.header > .user-content > img {
+   width: 31px;
+   padding-bottom: 6px;
+   padding-top: 6px;
+   cursor: pointer;
+}
+.user-content {
+   display: flex;
+   align-items: center;
+   gap: 0.5rem;
+   color: #ECF9E6;
+}
+
+.user-options {
+    display: none;
+    width: 80px;
+    background-color: #ECF9E6;
+    color: #005C53;
+    position: absolute;
+    top: 50px;
+    border: 1px #005C53 solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+
+}
+
+.user-option {
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.user-option:hover {
+    opacity: 0.8;
+}

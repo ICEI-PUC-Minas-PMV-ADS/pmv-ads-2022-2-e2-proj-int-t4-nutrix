@@ -21,6 +21,37 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.DadoPessoal", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("Altura")
+                        .HasColumnType("int");
+
+                    b.Property<string>("DataFicha")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Peso")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Tipo")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UsuarioId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("DadosPessoais");
+                });
+
             modelBuilder.Entity("Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.Usuario", b =>
                 {
                     b.Property<int>("Id")
@@ -67,6 +98,20 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.DadoPessoal", b =>
+                {
+                    b.HasOne("Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.Usuario", null)
+                        .WithMany("DadosPessoais")
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.Usuario", b =>
+                {
+                    b.Navigation("DadosPessoais");
                 });
 #pragma warning restore 612, 618
         }
