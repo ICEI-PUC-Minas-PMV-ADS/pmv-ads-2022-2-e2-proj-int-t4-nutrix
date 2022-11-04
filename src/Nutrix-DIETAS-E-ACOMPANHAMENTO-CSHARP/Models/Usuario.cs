@@ -1,6 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
 
 namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models
 {
@@ -51,7 +50,8 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models
 
         public bool IsAlergicoFrutosMar { get; set; }
 
-        public ICollection<DadoPessoal> DadosPessoais { get; set; }
+        public ICollection<DadoPessoal>? DadosPessoais { get; set; }
+        public ICollection<Dieta>? Dietas { get; set; }
 
     }
 }

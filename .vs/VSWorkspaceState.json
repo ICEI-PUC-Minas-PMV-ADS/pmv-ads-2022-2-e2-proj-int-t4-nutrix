@@ -2,7 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP"
+    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
+    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Controllers",
+    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Migrations",
+    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Models",
+    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Views",
+    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Views\\Usuarios",
+    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Views\\Usuarios\\Login",
+    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Views\\Usuarios\\Register"
   ],
   "SelectedNode": "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP.sln",
   "PreviewInSolutionExplorer": false
