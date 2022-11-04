@@ -11,7 +11,7 @@ using Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models;
 namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221031012347_DADOS_PESSOAIS")]
+    [Migration("20221103024154_DADOS_PESSOAIS")]
     partial class DADOS_PESSOAIS
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -104,11 +104,13 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
 
             modelBuilder.Entity("Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.DadoPessoal", b =>
                 {
-                    b.HasOne("Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.Usuario", null)
+                    b.HasOne("Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.Usuario", "Usuario")
                         .WithMany("DadosPessoais")
                         .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.Usuario", b =>

@@ -8,6 +8,7 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models
     [Table("DadosPessoais")]
     public class DadoPessoal
     {
+        [Key]
         public int Id { get; set; }
 
 
@@ -25,11 +26,16 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models
         public int Altura { get; set; }
 
 
-        public int UsuarioId { get; set; }
-        [ForeignKey("UsuarioId")]
-
-
         public FrequenciaAtvFisica Tipo { get; set; }
+
+
+        [Display(Name = "Usuario")]
+        public int UsuarioId { get; set; }
+
+
+        [ForeignKey("UsuarioId")]
+        public Usuario? Usuario { get; set; }
+
 
     }
 

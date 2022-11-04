@@ -17,8 +17,8 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
                     DataFicha = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Peso = table.Column<int>(type: "int", nullable: false),
                     Altura = table.Column<int>(type: "int", nullable: false),
-                    UsuarioId = table.Column<int>(type: "int", nullable: false),
-                    Tipo = table.Column<int>(type: "int", nullable: false)
+                    Tipo = table.Column<int>(type: "int", nullable: false),
+                    UsuarioId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
