@@ -1,3 +1,22 @@
+:root {
+    --color-dark-blue: #17222C;
+    --color-dark-green: #001A0A;
+    --color-primary-green: #005E23;
+    --color-secondary-green: #007029;
+    --color-light-green: #d9ffe6;
+    --color-gray: #D6D6D6;
+    --color-white: #FFFF;
+    --color-black: #0000;
+    --color-nutrixtitle: #ECF9E6;
+    --color-title-block: #8DBA8B;
+    --color-block: #B7D2B6;
+    --color-block-opacity: #B7D2B680;
+    --color-background: #E5E5E5;
+    --color-border:#005C53;
+    --color-background-img:#F2FADA;
+    --color-background-img-opacity: #F2FADAdd;
+    --color-background-block: #FFF5EA;
+}
 .manager-container {
    width: 100%;
    height: 100%;
@@ -13,7 +32,7 @@
    align-items: center;
    background-color: #E8E8E8;
 
-   height: aut;
+   height: auto;
 }
 
 .main-title {
@@ -57,36 +76,45 @@
 
    background-color: #CBDBCA;
    border-radius: 1rem;
+   gap: 1rem;
 }
 
 /* Dieta */
 .diet {
-   display: flex;
+   /* display: flex;
    flex-direction: column;
    align-items: center;
    padding: 0.5rem;
    background-color: transparent;
 
-   border-radius: 10px;
+   border-radius: 10px; */
+   
+   background-color: var(--color-background-img-opacity);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border: 1px solid var(--color-border);
 }
 
 .diet>img {
-   width: 160px;
-   height: auto;
-   padding: 0.5rem;
-   border-radius: 10px;
-   background-color: #81ac7e;
+   width: 40%;
+   margin-top: 10px;
 }
 
 .action-group {
-   width: 100%;
-   background-color: #589A55;
+   width: auto;
+   background-color:var(--color-border);
    display: flex;
    align-items: center;
    justify-content: space-around;
-   gap: 1rem;
+   gap: 0.5rem;
    padding: 0.1rem;
-   border-radius: 10px;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
 }
 
 .action-group>button {
@@ -105,6 +133,9 @@
    display: inline;
 }
 @media (max-width:1080px) {
+   .main {
+      min-height: 80vh;
+   }
    .diet-container {
       padding: 0.4rem;
       gap: 0.5rem;
@@ -152,13 +183,11 @@
 @media (max-width:660px) {
    .diet-container {
       grid-template-columns: repeat(1, 1fr);
-      background-color: transparent;
+      background-color: var(--color-block-opacity);
+      gap: 1rem;
+      padding: 1rem ;
    }
 
-   .diet {
-      background-color: #BDBDBD;
-      padding: 1.5rem;
-   }
 
    .manager-diet-container {
       align-items: center;
