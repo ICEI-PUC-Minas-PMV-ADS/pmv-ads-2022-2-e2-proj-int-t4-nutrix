@@ -4,15 +4,15 @@
 
   Utilizamos os seguintes Casos de Teste:
 
-CT-02 – Efetuar registro, login e logoff
-CT-03 – Visualizar apresentação da ideia do site
+CT-02 – Efetuar registro, login e logoff<br>
+CT-03 – Visualizar apresentação da ideia do site<br>
 CT-05 – Edição dos dados do usuário
 
   E designamos as seguintes estratégias de testes:
 
-CT-02 – Árvore de decisão
-CT-03 – Caso de Uso
-CT-05 – Caso de Uso
+CT-02 – Árvore de decisão<br>
+CT-03 – Caso de Uso<br>
+CT-05 – Caso de Uso<br>
 
   O projeto do Teste ficou organizado da seguinte forma:
 
