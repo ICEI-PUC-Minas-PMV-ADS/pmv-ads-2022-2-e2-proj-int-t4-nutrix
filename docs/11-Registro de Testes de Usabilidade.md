@@ -21,3 +21,17 @@ Tela: Homepage
 Avaliação Funcional
 
 ![image](https://user-images.githubusercontent.com/105240089/200727880-bc17af2f-e0c3-49a2-b4b2-d5bc44f6f7fb.png)
+
+Utilizamos também, as heurísticas de usabilidade de Nielsen:
+
+Desenvolvedor 01:
+
+![Desenvolvedor 01](https://user-images.githubusercontent.com/105240089/200728747-d1d7e6a0-e35d-49b1-9b9d-700ab5f8870d.jpg)
+
+Usuário 01:
+
+![Usuário 01](https://user-images.githubusercontent.com/105240089/200728843-dc2bfd7c-63ac-4367-92e1-f3a24c806c38.jpg)
+
+Usuário 02:
+
+![Usuário 02](https://user-images.githubusercontent.com/105240089/200728883-62bdc321-79d6-43b3-903d-78b624b7cf47.jpg)
