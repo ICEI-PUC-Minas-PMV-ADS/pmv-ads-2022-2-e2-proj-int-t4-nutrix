@@ -135,7 +135,7 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
 
             }
 
-                return View(refeicoes);
+                return View("Views/Dieta/DietaSelector.cshtml", refeicoes);
 
         }
 
