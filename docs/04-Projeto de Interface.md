@@ -11,7 +11,7 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 No diagrama de fluxo, as principais telas apresentadas foram as: Tela de Login, Tela Homepage e Tela criação de dieta. Elas possuem a maior importância por serem as mais utilizadas e as que focam na demanda do usuário. Decidimos separar o diagrama de fluxo em partes para melhor entendimento, como por exemplo a parte de Login e Registro e Navegação na tela principal; para que não haja muita interação fora deles e seja melhor entendido tanto pelos projetistas quanto pro manuseio dos usuários.
 
-<img src="docs/img/Diagrama de Fluxo.jpg" width="1000" height="700" />
+<img src="docs/img/Diagrama de Fluxo.jpg](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t4-nutrix/blob/e3e988368ba21ec0fa3381abc4971e9fcca2a43c/docs/img/Diagrama%20de%20Fluxo.jpg" width="1000" height="700" />
 
 Outras telas como; Tela Perfil do usuário e Tela relatórios, também auxiliam o usuário maximizar a relação deles com o programa, por meio de atualizações de dados e histórico de dietas. Para isso, o mesmos foram semparados em blocos, Fluxo de tela de Relatórios e Fluxo da opção Acessar o Perfil; para que o usuário finalize tudo o que deseja sem navegar por muitas telas.
 
