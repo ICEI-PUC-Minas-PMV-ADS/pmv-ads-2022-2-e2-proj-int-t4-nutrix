@@ -23,7 +23,7 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models
 
 
         [Required(ErrorMessage = "Informe o número de refeições")]
-        [Range(1, 10)]
+        [Range(2, 6)]
         public int NumeroRefeicoes { get; set; }
 
 

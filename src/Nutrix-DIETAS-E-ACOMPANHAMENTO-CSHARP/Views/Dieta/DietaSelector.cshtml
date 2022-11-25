@@ -1,0 +1,153 @@
+﻿@model IEnumerable<Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.Alimento[]>
+
+@{
+    ViewData["Title"] = "Exibição da Dieta";
+}
+
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="~/css/DietaStart.css" asp-append-version="true" />
+    <title>Nutrix Dietas e Acompanhamento </title>
+</head>
+
+<body>
+    <div class="manager-container">
+       
+        <main class="main">
+            <div class="main-title">
+                <h2>Criação de Cardápio</h2>
+            </div>
+            <div class="diet-container" id="diet-container">
+                <section class="action-header">
+                    <a asp-area="" asp-controller="Dietas" asp-action="DietasInformation">
+
+                        <img class="back-arrow" src="../../assets/arrow-left.png" alt="arrow-left" />
+
+                    </a>
+                    <h3>Escolha de alimentos</h3>
+                </section>
+
+
+                <section class="meals-container">
+
+                    <section class="meals-boxes">
+
+                        @{
+                            foreach (Alimento[] refeicao in Model)
+                            {
+
+                                    <div class="meal">
+                                        <h4>
+                                            Refeição 
+                                        </h4>
+                                        <h3>
+
+                                            @{
+                                                double totalQtde = 0;
+
+                                                @foreach (Alimento alimento in refeicao) {
+
+                                                
+                                                
+                                                    totalQtde = totalQtde + alimento.Qtde;
+
+                                                
+                                                }
+
+                                            @totalQtde;
+                                            }
+                                        
+                                        </h3>
+                                        <img src="/assets/diet-icon.png" alt="diet-icon">
+                                    </div>
+
+                                    <div class="food-box">
+
+                                        @foreach (Alimento alimento in refeicao)
+                                        {
+
+                                            <div class="meal-infos">
+
+                                                <div class="meal-title">
+                                                    <h4>@alimento.Descricao</h4>
+                                                    <h3>
+                                                        @alimento.Qtde 
+                                                        g
+                                                    </h3>
+                                                </div>
+
+
+                                                <div class="food-details">
+                                                    <section class="macros-values">
+
+                                                        <div title="Calorias">
+                                                            <img src="~/assets/calorias-icon.png" />
+                                                            <h5>
+                                                                @alimento.EnergiaKcal 
+                                                                Kcal 
+                                                            </h5>
+                                                        </div>
+
+                                                        <div title="Proteínas">
+                                                            <img src="~/assets/proteina-icon.png" />
+                                                            <h5>
+                                                                @alimento.Proteina
+                                                                g
+                                                            </h5>
+                                                        </div>
+
+                                                        <div title="Carboidratos">
+                                                            <img src="~/assets/carboidrato-icon.png" />
+                                                            <h5>
+                                                                @alimento.Carboidrato
+                                                                g
+                                                            </h5>
+                                                        </div>
+
+                                                        <div title="Gorduras">
+                                                            <img src="~/assets/gordura-icon.png" />
+                                                            <h5>
+                                                                @alimento.Lipideos
+                                                                g
+                                                            </h5>
+                                                        </div>
+
+
+                                                    </section>
+                                                </div>
+
+                                            </div>
+
+                                        }
+
+                                        
+
+                                    </div>
+
+
+
+                                    <section class="actions">
+                                        <img src="/assets/edit-document-icon.png" alt="edit-icon">
+                                        <img src="/assets/reload-icon.png" alt="reload-icon">
+                                    </section>
+                            }
+                        }
+
+
+                    </section>
+
+                </section>
+
+
+
+
+                <a class="create-btn">Salvar cardápio</a>
+            </div>
+
+        </div>
+    </main>
+
+</body>
+
+</html>

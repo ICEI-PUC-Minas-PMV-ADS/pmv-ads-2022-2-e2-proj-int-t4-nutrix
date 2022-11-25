@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gGr9KcTVNvTe9gsPRUFlBVjZQFtA8irwcmPRWCRHf0Q=",
+  "Hash": "8X2xXH95C4SCb+erQZKB8G95tpZdKoUc/1hqCpBuilE=",
   "Source": "Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
   "BasePath": "_content/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
   "Mode": "Default",
@@ -102,6 +102,40 @@
       "OriginalItemSpec": "wwwroot\\assets\\calculator-icon.png"
     },
     {
+      "Identity": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\calorias-icon.png",
+      "SourceId": "Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\",
+      "BasePath": "_content/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
+      "RelativePath": "assets/calorias-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\calorias-icon.png"
+    },
+    {
+      "Identity": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\carboidrato-icon.png",
+      "SourceId": "Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\",
+      "BasePath": "_content/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
+      "RelativePath": "assets/carboidrato-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\carboidrato-icon.png"
+    },
+    {
       "Identity": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\closed-menu-icon.png",
       "SourceId": "Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
       "SourceType": "Discovered",
@@ -168,6 +202,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\email-icon.svg"
+    },
+    {
+      "Identity": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\gordura-icon.png",
+      "SourceId": "Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\",
+      "BasePath": "_content/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
+      "RelativePath": "assets/gordura-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\gordura-icon.png"
     },
     {
       "Identity": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\head-icon.svg",
@@ -323,6 +374,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\opened-menu-icon.png"
     },
     {
+      "Identity": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\proteina-icon.png",
+      "SourceId": "Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\",
+      "BasePath": "_content/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
+      "RelativePath": "assets/proteina-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\proteina-icon.png"
+    },
+    {
       "Identity": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\reload-icon.png",
       "SourceId": "Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
       "SourceType": "Discovered",
@@ -406,6 +474,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\weight.png"
+    },
+    {
+      "Identity": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\DietaStart.css",
+      "SourceId": "Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\",
+      "BasePath": "_content/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
+      "RelativePath": "css/DietaStart.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\DietaStart.css"
     },
     {
       "Identity": "D:\\MorderSkol\\Projeto\\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\footer.css",

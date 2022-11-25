@@ -15,8 +15,8 @@ function toggleBtnState() {
 
     const iconsPath = {
 
-      openIcon: "./assets/opened-menu-icon.png",
-      closedIcon: "./assets/closed-menu-icon.png"
+      openIcon: "~/assets/opened-menu-icon.png",
+      closedIcon: "~/assets/closed-menu-icon.png"
     }
 
    if (showSidebar == false) {
