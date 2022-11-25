@@ -15,6 +15,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\MorderSkol\Projeto\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\src\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Dieta/DietaForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldGFcRGlldGFGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Dieta/DietaInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldGFcRGlldGFJbmZvcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Dieta/DietaSelector.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldGFcRGlldGFTZWxlY3Rvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

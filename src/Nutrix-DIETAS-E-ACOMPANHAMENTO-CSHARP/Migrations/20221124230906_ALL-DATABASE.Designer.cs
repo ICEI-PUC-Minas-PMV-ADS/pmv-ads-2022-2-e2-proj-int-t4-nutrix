@@ -11,8 +11,8 @@ using Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models;
 namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221104031122_ALL_DATABASE")]
-    partial class ALL_DATABASE
+    [Migration("20221124230906_ALL-DATABASE")]
+    partial class ALLDATABASE
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -125,6 +125,9 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
                         .IsRequired()
                         .HasMaxLength(40)
                         .HasColumnType("VARCHAR(40)");
+
+                    b.Property<int>("Qtde")
+                        .HasColumnType("int");
 
                     b.Property<string>("Rae")
                         .IsRequired()
@@ -323,9 +326,8 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SexoBiologico")
-                        .HasMaxLength(1)
-                        .HasColumnType("VARCHAR(1)");
+                    b.Property<int>("SexoBiologico")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

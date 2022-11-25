@@ -1,0 +1,75 @@
+@{
+    ViewData["Title"] = "Dados Calculados";
+}
+
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="~/css/DietaStart.css" asp-append-version="true" />
+    <title>Nutrix Dietas e Acompanhamento </title>
+</head>
+
+
+<main class="main">
+    <div class="main-title">
+        <h2>Criação de Cardápio</h2>
+    </div>
+
+    <div class="diet-container" id="diet-container">
+
+        <section class="action-header">
+            <img class="back-arrow" src="../../assets/arrow-left.png" alt="arrow-left" />
+            <h3>Dados Calculados</h3>
+        </section>
+
+        <section class="calories-container">
+
+            <section class="calories-spent-boxes">
+
+                <div class="calories-spent">
+
+                    <h4>Gasto cal�rico atual</h4>
+
+                    <p>2000</p>
+
+                </div>
+
+                <div class="calories-spent">
+                    <h4>Injest�o cal�rica sujerida</h4>
+                    <p>2500</p>
+                </div>
+
+            </section>
+
+            <div class="macros">
+                <h4>Distribuição sujerida de macronutrientes</h4>
+
+                <span>Proteinas</span>
+
+                <span>Gorduras</span>
+
+                <span>Carboidratos</span>
+
+            </div>
+
+            <section class="imc-container">
+
+                <div class="imc">
+
+                    <h4>IMC</h4>
+
+                    <p></p>
+
+                </div>
+
+            </section>
+
+        </section>
+
+        <a asp-area="" asp-controller="Dietas" asp-action="DietasSelector" class="create-btn">Avançar</a>
+
+    </div>
+
+</main>
+
+</html>

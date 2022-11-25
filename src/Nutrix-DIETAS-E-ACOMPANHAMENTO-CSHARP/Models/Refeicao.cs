@@ -25,4 +25,5 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models
         public ICollection<RefeicaoAlimento>? RefeicoesAlimentos { get; set; }
 
     }
+
 }
