@@ -124,6 +124,9 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
                         .HasMaxLength(40)
                         .HasColumnType("VARCHAR(40)");
 
+                    b.Property<int>("Qtde")
+                        .HasColumnType("int");
+
                     b.Property<string>("Rae")
                         .IsRequired()
                         .HasMaxLength(40)
@@ -321,9 +324,8 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SexoBiologico")
-                        .HasMaxLength(1)
-                        .HasColumnType("VARCHAR(1)");
+                    b.Property<int>("SexoBiologico")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

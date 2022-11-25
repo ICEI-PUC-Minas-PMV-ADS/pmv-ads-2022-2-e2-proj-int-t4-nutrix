@@ -4,7 +4,7 @@
 
 namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
 {
-    public partial class ALL_DATABASE : Migration
+    public partial class ALLDATABASE : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,6 +14,7 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Qtde = table.Column<int>(type: "int", nullable: false),
                     Categoria = table.Column<string>(type: "VARCHAR(100)", maxLength: 100, nullable: false),
                     Descricao = table.Column<string>(type: "VARCHAR(255)", maxLength: 255, nullable: false),
                     Umidade = table.Column<string>(type: "VARCHAR(40)", maxLength: 40, nullable: false),
@@ -46,6 +47,51 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Alimentos", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Usuarios",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Senha = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    ConfirmacaoSenha = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DataNasc = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    SexoBiologico = table.Column<int>(type: "int", nullable: false),
+                    IsDiabetico = table.Column<bool>(type: "bit", nullable: false),
+                    IsIntoleranteLactose = table.Column<bool>(type: "bit", nullable: false),
+                    IsAlergicoGluten = table.Column<bool>(type: "bit", nullable: false),
+                    IsAlergicoFrutosMar = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Usuarios", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "DadosPessoais",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    DataFicha = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Peso = table.Column<int>(type: "int", nullable: false),
+                    Altura = table.Column<int>(type: "int", nullable: false),
+                    Tipo = table.Column<int>(type: "int", nullable: false),
+                    UsuarioId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DadosPessoais", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_DadosPessoais_Usuarios_UsuarioId",
+                        column: x => x.UsuarioId,
+                        principalTable: "Usuarios",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -118,6 +164,11 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_DadosPessoais_UsuarioId",
+                table: "DadosPessoais",
+                column: "UsuarioId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Dietas_UsuarioId",
                 table: "Dietas",
                 column: "UsuarioId");
@@ -141,6 +192,9 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
+                name: "DadosPessoais");
+
+            migrationBuilder.DropTable(
                 name: "RefeicoesAlimentos");
 
             migrationBuilder.DropTable(
@@ -151,6 +205,9 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Migrations
 
             migrationBuilder.DropTable(
                 name: "Dietas");
+
+            migrationBuilder.DropTable(
+                name: "Usuarios");
         }
     }
 }
