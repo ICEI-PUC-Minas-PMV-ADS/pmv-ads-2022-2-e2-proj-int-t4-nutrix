@@ -21,7 +21,7 @@
     <header class="header">
 
         <!-- Rever -->
-        <img id="menubtn" class="menu-icon" src="../../assets/opened-menu-icon.png" alt="btn-menu"
+        <img id="menubtn" class="menu-icon" src="~/assets/opened-menu-icon.png" alt="btn-menu"
             onclick="toggleBtnState()" />
         <!-- Rever -->
 
@@ -29,11 +29,11 @@
 
         <div class="user-content" onclick="openPerfilMenu()">
             <p>@User.Identity.Name</p>
-            <img src="./assets/user-icon.png" alt="user">
+            <img src="~/assets/user-icon.png" alt="user">
 
             <div class="user-options">
                 <a class="user-option" asp-area="" asp-controller="Usuarios" asp-action="Logout">
-                    <img src="./assets/loggof-icon.png" alt="loggof">
+                    <img src="~/assets/loggof-icon.png" alt="loggof">
                     <p>Sair</p>
                 </a>
 
@@ -46,27 +46,27 @@
         <nav class="navbar" id="navbar">
 
             <a class="nav-item" asp-area="" asp-controller="Home" asp-action="Index">
-                <img src="./assets/house-icon.png" alt="">
+                <img src="~/assets/house-icon.png" alt="">
                 <p class="text-icon">Home</p>
             </a>
 
             <div class="nav-item">
-                <img src="./assets/diet-icon.png" alt="">
+                <img src="~/assets/diet-icon.png" alt="">
                 <p class="text-icon1">Nova Dieta</p>
             </div>
             <div class="nav-item">
 
-                <img src="./assets/edit-document-icon.png" alt="">
+                <img src="~/assets/edit-document-icon.png" alt="">
                 <p class="text-icon2">Gerar Dietas</p>
             </div>
-            <div class="nav-item">
-                <img src="./assets/timeline-icon.png" alt="">
+            <a class="nav-item" asp-controller="Timeline" asp-action="Index">
+                <img src="~/assets/timeline-icon.png" alt="">
                 <p class="text-icon3">Linha do tempo</p>
-            </div>
-            <div class="nav-item">
-                <img src="./assets/report-icon.png" alt="">
+            </a>
+            <a class="nav-item" asp-controller="Relatorios" asp-action="Index">
+                <img src="~/assets/report-icon.png" alt="">
                 <p class="text-icon4">Relatórios</p>
-            </div>
+            </a>
 
         </nav>
 
@@ -85,10 +85,10 @@
 
     @if (User.Identity.IsAuthenticated) {
         <footer>
-            <img class="footer-img" src="./assets/logo.png" alt="logo Nutrix">
+            <img class="footer-img" src="~/assets/logo.png" alt="logo Nutrix">
             <div class="footer-text">
                 <p class="email-nutrix">
-                    <img class="img-email" src="./assets/email-icon.svg" alt="">
+                    <img class="img-email" src="~/assets/email-icon.svg" alt="">
                     NutrixDietas@gmail.com
                 </p>
                 <p>copyright Todos os direitos reservados</p>

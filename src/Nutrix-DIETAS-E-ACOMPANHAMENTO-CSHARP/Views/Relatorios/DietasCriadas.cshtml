@@ -1,0 +1,40 @@
+@{
+    ViewData["Title"] = "Relatório de Dietas Criadas";
+}
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="~/css/Relatorios.css" asp-append-version="true" />
+    <title>Nutrix Dietas e Acompanhamento </title>
+</head>
+
+<body>
+    <div class="manager-container">
+        <main class="main">
+            <div class="main-title">
+                <h2>Relatórios</h2>
+            </div>
+
+            <div class="diet-container" id="diet-container">
+                <section class="action-header">
+                    <a asp-controller="Relatorios" asp-action="Index">
+                        <img class="back-arrow" src="../../assets/arrow-left.png" alt="arrow-left" />
+                    </a>
+                    <h3>Dietas criadas</h3>
+                </section>
+
+                <span class="user-data">@User.Identity.Name - @DateTime.Now</span>
+
+                <div class="relatorio-dietas">
+                    <h1>
+                            @ViewData["Count"]
+                    </h1>
+                    <span>Dietas já criadas</span>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
