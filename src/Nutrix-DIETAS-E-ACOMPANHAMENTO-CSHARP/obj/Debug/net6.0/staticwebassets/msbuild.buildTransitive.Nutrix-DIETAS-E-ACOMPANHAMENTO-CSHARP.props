@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP.props" />
+</Project>

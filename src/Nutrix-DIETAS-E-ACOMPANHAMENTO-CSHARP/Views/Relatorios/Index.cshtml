@@ -1,0 +1,56 @@
+@{
+    ViewData["Title"] = "Relatórios";
+}
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="~/css/Relatorios.css" asp-append-version="true" />
+    <title>Nutrix Dietas e Acompanhamento </title>
+</head>
+
+<body>
+   <div class="manager-container">
+      <main class="main">
+         <div class="main-title">
+            <h2>Relatórios</h2>
+         </div>
+
+         <section>
+            <div class="main-title">
+               <h2>Selecione o relatório que deseja gerar</h2>
+            </div>
+
+            <section class="relatorios">
+                    <a class="card-relatorio" asp-controller="Relatorios" asp-action="Peso">
+                  <div class="header-relatorios">
+                     <h3>Variações de peso</h3>
+                  </div>
+                  <img src="../../assets/weight.png" width="150" alt="weight icon" />
+               </a>
+
+               <a class="card-relatorio" asp-controller="Relatorios" asp-action="Saude">
+                  <div class="header-relatorios">
+                     <h3>Resumo de saúde</h3>
+                  </div>
+                  <img src="../../assets/heart.png" width="150" alt="heart icon" />
+               </a>
+
+               <a class="card-relatorio" asp-controller="Relatorios" asp-action="DietasCriadas">
+                  <div class="header-relatorios">
+                     <h3>Total de dietas criadas</h3>
+                  </div>
+                  <img src="../../assets/meal.png" width="150" alt="meal icon" />
+               </a>
+            </section>
+
+
+         </section>
+         
+
+      </main>
+
+   </div>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+﻿@{
+    ViewData["Title"] = "Linha do Tempo";
+}
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="~/css/Timeline.css" asp-append-version="true" />
+    <title>Nutrix Dietas e Acompanhamento </title>
+</head>
+
+<body>
+      <main class="main">
+         <div class="main-title">
+            <h2>Linha do tempo</h2>
+         </div>
+         <div 
+            class="timeline-container"
+         >
+            @foreach (var item in Model)
+            {
+
+            <div class="timeline-card">
+                    <h2>@DateTime.Parse(@item.DataFicha).ToShortDateString()</h2>
+               <ul>
+                        @{
+                            string situacao = "";
+                            var imc = item.Peso / (Math.Pow((Convert.ToDouble(item.Altura) / 100), 2));
+
+                            if (imc < 18.5)
+                            {
+                                situacao = "Magreza";
+                            }
+                            else if (imc >= 18.5 && imc < 24.9)
+                            {
+                                situacao = "Normal";
+                            }
+                            else if (imc >= 25 && imc < 29.9)
+                            {
+                                situacao = "Sobrepeso";
+                            }
+                            else if (imc >= 30 && imc < 39.9)
+                            {
+                                situacao = "Obesidade Grau 1";
+                            }
+                            else if (imc >= 40)
+                            {
+                                situacao = "Obesidade Grau 3";
+                            }
+                        }
+                  <li>PESO: @item.Peso KG</li>
+                        <li>IMC: @Math.Round(@imc, 2)</li>
+                        <li>Situacao: @situacao</li>
+               </ul>
+            </div>
+            }
+
+         </div>
+      </main>
+</body>
+
+</html>

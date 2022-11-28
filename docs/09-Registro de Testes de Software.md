@@ -2,14 +2,53 @@
 
 <span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
 
-Para cada caso de teste definido no Plano de Testes de Software, realize o registro das evidências dos testes feitos na aplicação pela equipe, que comprovem que o critério de êxito foi alcançado (ou não!!!). Para isso, utilize uma ferramenta de captura de tela que mostre cada um dos casos de teste definidos (obs.: cada caso de teste deverá possuir um vídeo do tipo _screencast_ para caracterizar uma evidência do referido caso).
+  Utilizamos os seguintes Casos de Teste:
 
-## Avaliação
+CT-02 – Efetuar registro, login e logoff<br>
+CT-03 – Visualizar apresentação da ideia do site<br>
+CT-05 – Edição dos dados do usuário
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+  E designamos as seguintes estratégias de testes:
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-[Teste_Funcional_Nutrix.zip](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e2-proj-int-t4-nutrix/files/9897621/Teste_Funcional_Nutrix.zip)
+CT-02 – Árvore de decisão<br>
+CT-03 – Caso de Uso<br>
+CT-05 – Caso de Uso<br>
+
+  O projeto do Teste ficou organizado da seguinte forma:
+
+CT-02 - Árvore de decisão:
+
+![image](https://user-images.githubusercontent.com/105240089/200723845-2ff345b2-37c4-4eac-a88d-369ccd5e1068.png)
+
+CT-03 – Caso de uso:
+
+RF-01	O site deve fornecer uma apresentação sobre a ideia geral do projeto.
+
+CT-05 – Caso de uso:
+
+RF-03	O site deve permitir a edição do perfil do usuário (CRUD).
+
+Testes Realizados:
+
+![image](https://user-images.githubusercontent.com/105240089/200724336-2915bde9-1b19-4ccd-b5c4-648bc4b82209.png)
+
+Teste 01:
+
+Sucesso	Registrar usuário (preenchimentos correto das informações, Homepage, Logoff	Sem erro
+
+Teste 02:
+
+Sucesso	Login, Credenciais corretas, Homepage, Logoff	Sem erro
+
+Teste 03:
+
+Fracasso	Login, Credenciais incorretas, Esqueceu a senha, Tela de recuperação de senha	Erro no caminho para a página de Tela de recuperação de senha
+
+![image](https://user-images.githubusercontent.com/105240089/200724454-9bd2027a-22c2-4998-bd27-f89ad912538b.png)
+
+Teste 01:
+
+Sucesso	Tela de Login, Informações do site à esquerda	Sem erro
+
 
 ![cats](https://user-images.githubusercontent.com/105240089/198921282-c16226b4-9f4b-4c77-80fa-0609285e73b3.jpg)

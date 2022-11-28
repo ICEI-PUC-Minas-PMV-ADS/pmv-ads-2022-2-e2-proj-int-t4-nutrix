@@ -1,8 +1,37 @@
 # Registro de Testes de Usabilidade
 
-Após realizar os testes de usabilidade, obtém-se um relatório a partir das análises realizadas. O Registro de Testes de Usabilidade é um relatório que contém as evidências dos testes e relatos dos usuários participantes, baseado no Plano de Testes de Usabilidade desenvolvido para os casos de uso desta etapa.
+Utilizamos as seguintes escalas de avaliação:
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Registro de Testes de Usabilidade”.
+![image](https://user-images.githubusercontent.com/105240089/200727363-6bcb4505-befa-431f-9fa4-85732b9f65e3.png)
 
-> **Links Úteis**:
-> - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+Avaliação Estática
+
+Tela: Tela de Login
+
+![image](https://user-images.githubusercontent.com/105240089/200727582-e3461f3a-1071-4626-9c94-1f301fec0587.png)
+
+Tela: Tela de Registro
+
+![image](https://user-images.githubusercontent.com/105240089/200727681-c35070d8-f2a5-4506-bb95-f1f50a8ac828.png)
+
+Tela: Homepage
+
+![image](https://user-images.githubusercontent.com/105240089/200727807-198db2b2-c34e-47db-9b72-b251fbf95257.png)
+
+Avaliação Funcional
+
+![image](https://user-images.githubusercontent.com/105240089/200727880-bc17af2f-e0c3-49a2-b4b2-d5bc44f6f7fb.png)
+
+Utilizamos também, as heurísticas de usabilidade de Nielsen:
+
+Desenvolvedor 01:
+
+![Desenvolvedor 01](https://user-images.githubusercontent.com/105240089/200728747-d1d7e6a0-e35d-49b1-9b9d-700ab5f8870d.jpg)
+
+Usuário 01:
+
+![Usuário 01](https://user-images.githubusercontent.com/105240089/200728843-dc2bfd7c-63ac-4367-92e1-f3a24c806c38.jpg)
+
+Usuário 02:
+
+![Usuário 02](https://user-images.githubusercontent.com/105240089/200728883-62bdc321-79d6-43b3-903d-78b624b7cf47.jpg)
