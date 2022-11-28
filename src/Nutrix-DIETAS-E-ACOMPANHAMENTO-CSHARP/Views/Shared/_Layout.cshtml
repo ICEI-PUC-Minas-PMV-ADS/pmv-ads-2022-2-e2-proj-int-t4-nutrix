@@ -50,22 +50,28 @@
                 <p class="text-icon">Home</p>
             </a>
 
-            <div class="nav-item">
+            <a class="nav-item" asp-area="" asp-controller="Dietas" asp-action="DietasForm">
                 <img src="~/assets/diet-icon.png" alt="">
                 <p class="text-icon1">Nova Dieta</p>
             </a>
 
-                <img src="~/assets/edit-document-icon.png" alt="">
+            <div class="nav-item">
+                <img src="~/assets/edit-document-icon.png" alt="documento-icone">
                 <p class="text-icon2">Gerar Dietas</p>
             </div>
-            <a class="nav-item" asp-controller="Timeline" asp-action="Index">
-                <img src="~/assets/timeline-icon.png" alt="">
-                <p class="text-icon3">Linha do tempo</p>
+            
+            <a class="nav-item" asp-area="" asp-controller="Usuarios" asp-action="Edit">
+                <img src="~/assets/user-icon.png" alt="perfil-icone">
+                <p class="text-icon3">Editar Perfil</p>
             </a>
-            <a class="nav-item" asp-controller="Relatorios" asp-action="Index">
-                <img src="~/assets/report-icon.png" alt="">
-                <p class="text-icon4">Relatórios</p>
-            </a>
+            <div class="nav-item">
+                <img src="~/assets/timeline-icon.png" alt="timeline-icone">
+                <p class="text-icon4">Linha do tempo</p>
+            </div>
+            <div class="nav-item">
+                <img src="~/assets/report-icon.png" alt="report-icone">
+                <p class="text-icon5">Relatórios</p>
+            </div>
 
         </nav>
 
@@ -87,7 +93,7 @@
             <img class="footer-img" src="~/assets/logo.png" alt="logo Nutrix">
             <div class="footer-text">
                 <p class="email-nutrix">
-                    <img class="img-email" src="~/assets/email-icon.svg" alt="">
+                <img class="img-email" src="~/assets/email-icon.svg" alt="">
                     NutrixDietas@gmail.com
                 </p>
                 <p>copyright Todos os direitos reservados</p>

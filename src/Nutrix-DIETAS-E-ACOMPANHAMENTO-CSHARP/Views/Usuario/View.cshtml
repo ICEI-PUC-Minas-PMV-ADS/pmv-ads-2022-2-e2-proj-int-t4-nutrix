@@ -28,13 +28,18 @@
                 <span asp-validation-for="Senha" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="ConfirmacaoSenha" class="control-label"></label>
+                <input asp-for="ConfirmacaoSenha" class="form-control" />
+                <span asp-validation-for="ConfirmacaoSenha" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="DataNasc" class="control-label"></label>
                 <input asp-for="DataNasc" class="form-control" />
                 <span asp-validation-for="DataNasc" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="SexoBiologico" class="control-label"></label>
-                <input asp-for="SexoBiologico" class="form-control" />
+                <select asp-for="SexoBiologico" class="form-control"></select>
                 <span asp-validation-for="SexoBiologico" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
@@ -58,7 +63,7 @@
                 </label>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Criar" class="btn btn-primary" />
             </div>
         </form>
     </div>
