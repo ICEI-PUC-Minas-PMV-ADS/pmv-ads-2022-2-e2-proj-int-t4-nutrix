@@ -925,27 +925,77 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models
 
             double porcentagemDiferenca;
 
-
-            if (double.Parse(alimento.EnergiaKcal) > caloriaPorRefeicao)
+            if (alimento.EnergiaKcal == "NA" || alimento.EnergiaKcal == "Tr" || alimento.EnergiaKcal == "*")
             {
-                energiaDiferenca = (double.Parse(alimento.EnergiaKcal) - caloriaPorRefeicao);
+                return 0;
+            }
 
-                porcentagemDiferenca = (energiaDiferenca * 100) / (double.Parse(alimento.EnergiaKcal));
+            double EnergiaKcal = double.Parse(alimento.EnergiaKcal.Replace(',', '.'));
+
+
+            if (EnergiaKcal > caloriaPorRefeicao)
+            {
+                energiaDiferenca = (EnergiaKcal - caloriaPorRefeicao);
+
+                porcentagemDiferenca = (energiaDiferenca * 100) / EnergiaKcal;
 
                 return Convert.ToInt32(alimento.Qtde - porcentagemDiferenca);
 
             }
-            else if (double.Parse(alimento.EnergiaKcal) == caloriaPorRefeicao)
+            else if (EnergiaKcal == caloriaPorRefeicao)
             {
                 return alimento.Qtde;
             }
             else
             {
-                energiaDiferenca = (caloriaPorRefeicao - double.Parse(alimento.EnergiaKcal));
+                energiaDiferenca = (caloriaPorRefeicao - EnergiaKcal);
 
-                porcentagemDiferenca = (energiaDiferenca * 100) / (double.Parse(alimento.EnergiaKcal));
+                porcentagemDiferenca = (energiaDiferenca * 100) / EnergiaKcal;
 
                 return Convert.ToInt32(alimento.Qtde + porcentagemDiferenca);
+            }
+
+        }
+
+
+        private static double CalculoAtributosBaseQTDE(double qtde, string atributo)
+        {
+
+            if(atributo == "NA" || atributo == "Tr" || atributo == "*")
+            {
+                return 0;
+            }
+
+            double atributoConvertido = double.Parse(atributo.Replace(',', '.'));
+
+            double atributoResultado;
+
+            double diferencaQtde;
+
+            if (qtde > 100)
+            {
+                diferencaQtde = (qtde - 100);
+
+                atributoResultado = (atributoConvertido * (diferencaQtde * 0.01));
+
+                atributoResultado += atributoConvertido;
+
+                return atributoResultado;
+
+            }
+            else if (qtde == 100)
+            {
+                return atributoConvertido;
+            }
+            else
+            {
+                diferencaQtde = (100 - qtde);
+
+                atributoResultado = (atributoConvertido * (diferencaQtde * 0.01));
+
+                atributoConvertido -= atributoResultado;
+
+                return atributoConvertido;
             }
 
         }
@@ -953,57 +1003,37 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models
         public static List<Alimento> AtribuiCaloriaAlimentos(double caloriaPorRefeicao, List<Alimento> alimentosRefeicao)
         {
 
-            List<Alimento> alimentos = new List<Alimento>();
-            alimentos.AddRange(alimentosRefeicao);
+            List<Alimento> alimentos = alimentosRefeicao;
 
             double caloriaPorAlimento;
 
-
-            switch (alimentosRefeicao.Count)
+            if(alimentos.Count == 1)
             {
-                case 1:
+                caloriaPorAlimento = caloriaPorRefeicao;
+            } else if(alimentos.Count == 2)
+            {
+                caloriaPorAlimento = caloriaPorRefeicao / 2;
+            } else if(alimentos.Count == 3)
+            {
+                caloriaPorAlimento = caloriaPorRefeicao / 3;
+            } else
+            {
+                caloriaPorAlimento = caloriaPorRefeicao / 4;
+            };
 
-                    alimentos[0].Qtde = QuantidadeDoAlimento(caloriaPorRefeicao, alimentos[0]);
-
-                    break;
-
-                case 2:
-
-                    caloriaPorAlimento = caloriaPorRefeicao / 2;
-
-                    for(int i = 1; i > alimentos.Count; i++)
-                    {
-                        alimentos[i - 1].Qtde = QuantidadeDoAlimento(caloriaPorAlimento, alimentos[i - 1]);
-                    }
-
-
-                    break;
-
-                case 3:
-
-                    caloriaPorAlimento = caloriaPorRefeicao / 3;
-
-                    for (int i = 1; i > alimentos.Count; i++)
-                    {
-                        alimentos[i - 1].Qtde = QuantidadeDoAlimento(caloriaPorAlimento, alimentos[i - 1]);
-                    }
-
-                    break;
-
-                case 4:
-
-                    caloriaPorAlimento = caloriaPorRefeicao / 4;
-
-                    for (int i = 1; i > alimentos.Count; i++)
-                    {
-                        alimentos[i - 1].Qtde = QuantidadeDoAlimento(caloriaPorAlimento, alimentos[i - 1]);
-                    }
-
-                    break;
+            foreach (Alimento alimento in alimentos)
+            {
+                alimento.Qtde = QuantidadeDoAlimento(caloriaPorAlimento, alimento);
+                alimento.Carboidrato = (CalculoAtributosBaseQTDE(alimento.Qtde, alimento.Carboidrato)).ToString("0.00");
+                alimento.EnergiaKcal = (CalculoAtributosBaseQTDE(alimento.Qtde, alimento.EnergiaKcal)).ToString("0.00");
+                alimento.Proteina = (CalculoAtributosBaseQTDE(alimento.Qtde, alimento.Proteina)).ToString("0.00");
+                alimento.Lipideos = (CalculoAtributosBaseQTDE(alimento.Qtde, alimento.Lipideos)).ToString("0.00");
             }
 
 
             return alimentos;
+
+
         }
 
     }
