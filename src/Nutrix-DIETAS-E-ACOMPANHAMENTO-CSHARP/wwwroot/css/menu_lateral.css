@@ -1,23 +1,18 @@
 .navbar {
-   z-index: 1;
-
-   position: absolute;
-   
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   justify-content: start;
-   gap: 1.5rem;
-   
-   min-width: 3rem;
-   max-width: 8rem;
-
-   height: 100vh;
-   padding-right: 1rem;
-   padding-top: 1.5rem;
-
-   background-color: #CBDBCA;
-   transition: all .2s;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 1.5rem;
+    min-width: 3rem;
+    max-width: 8rem;
+    height: 100vh;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    background-color: #CBDBCA;
+    transition: all .2s;
 }
 
 .nav-item {
@@ -27,9 +22,19 @@
    justify-content: flex-start;
    padding-left: 0.5rem;
    gap: 1rem;
+   cursor: pointer;
 }
-.nav-item > img {
-   width: 40px;
+    .nav-item > img {
+       width: 40px;
+    }
+
+    .nav-item > p {
+        text-decoration: none;
+        color: black;
+    }
+
+.nav-item:hover {
+    opacity: 0.7;
 }
 
 @media (max-width:1080px) {

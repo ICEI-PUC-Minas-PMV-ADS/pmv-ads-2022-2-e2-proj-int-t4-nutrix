@@ -7,6 +7,7 @@ let text_icon1 = document.querySelector(".text-icon1");
 let text_icon2 = document.querySelector(".text-icon2");
 let text_icon3 = document.querySelector(".text-icon3");
 let text_icon4 = document.querySelector(".text-icon4");
+let text_icon5 = document.querySelector(".text-icon5");
 
 let showSidebar = true;
 
@@ -15,8 +16,8 @@ function toggleBtnState() {
 
     const iconsPath = {
 
-      openIcon: "~/assets/opened-menu-icon.png",
-      closedIcon: "~/assets/closed-menu-icon.png"
+      //openIcon: "~/assets/opened-menu-icon.png",
+      //closedIcon: "~/assets/closed-menu-icon.png"
     }
 
    if (showSidebar == false) {
@@ -36,9 +37,13 @@ function toggleBtnState() {
       text_icon3.style.animationName = ''
       // text_icon4.style.marginLeft = '-100vw'
       text_icon4.style.display = 'none'
-      text_icon4.style.animationName = ''
+       text_icon4.style.animationName = ''
+      // text_icon5.style.marginLeft = '-100vw'
+
+       text_icon5.style.display = 'none'
+       text_icon5.style.animationName = ''
       
-      btn_menu.setAttribute("src", iconsPath.closedIcon)
+      //btn_menu.setAttribute("src", iconsPath.closedIcon)
 
    }
    else {
@@ -58,9 +63,12 @@ function toggleBtnState() {
       text_icon3.style.animationName = 'showSidebar'
       text_icon4.style.marginLeft = '0vw'
       text_icon4.style.display = 'initial'
-      text_icon4.style.animationName = 'showSidebar'
+       text_icon4.style.animationName = 'showSidebar'
+       text_icon5.style.marginLeft = '0vw'
+       text_icon5.style.display = 'initial'
+       text_icon5.style.animationName = 'showSidebar'
 
-      btn_menu.setAttribute("src", iconsPath.openIcon)
+      //btn_menu.setAttribute("src", iconsPath.openIcon)
 
    }
 };
