@@ -1,0 +1,107 @@
+@model Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.Dieta
+
+@{
+    ViewData["Title"] = "Formulário da Dieta";
+}
+
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="~/css/Perfil.css" asp-append-version="true" />
+    <title>Nutrix Dietas e Acompanhamento </title>
+
+    
+</head>
+<body>
+   
+
+    <div>
+        <h1 id="titulo">Editar Perfil</h1>
+    </div>
+
+
+    @* ESSA TELA PRECISA SER ALTERADA, HOJE É UMA CÓPIA DA EDIÇÃO DE PERFIL, SÃO PARECIDAS MAS POSSUEM CAMPOS DIFERENTES, O HTML DEVE SER ESTRUTURADO*@
+
+
+
+
+    <form asp-action="DietaSelector">
+        <fieldset class="grupo1">
+            
+            <h2 id="titulo2"><img src="../../assets/edit-document-icon.png">
+                <div class="title2"> 
+                    Atualize os dados base do seu perfil
+                </div>
+            </h2>
+            
+            <div class="campos">
+
+                <div class="campo">
+                    <label>Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </div>
+                <div class="campo">
+                    <label>E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="campo">
+                    <label>Altura</label>
+                    <input type="number" name="altura" id="altura" placeholder="cm" min="140" max="240">
+                </div>
+                <div class="campo">
+                    <label>Peso</label>
+                    <input type="number" name="peso" id="peso" placeholder="kg" min="30" max="300">
+                </div>
+                <div class="campo">
+                    <label>Senha</label>
+                    <input type="password" name="senha" id="senha">
+                </div>
+                <div class="campo">
+                    <label>Confirmar Senha</label>
+                    <input type="password" name="confsenha" id="confsenha">
+                </div>
+                <div class="campo">
+                    <label>Data de nascimento</label>
+                    <input type="date" name="data" id="data">
+                </div>
+                <div class="campo">
+                    <label for="senioridade">Sexo biológico</label>
+                    <select id="sexobiologico">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                    </select>
+                </div>
+            </div>
+        </fieldset><br>
+
+        <fieldset class="grupo2">
+            
+            <h2 id="titulo2"><img src="../../assets/info-icon.png"><div class="title2">Dados restritivos</div></h2>
+            <div class="campo2">
+               
+                <label class="label2">Seleciona suas restrições alimentares</label><br>
+                
+               <div>
+                <input type="checkbox" id="restri1" name="restri1" value="lactose">
+                <label for="restri1">Lactose</label>
+               </div>
+               <div>
+                <input type="checkbox" id="restri2" name="restri2" value="frutosdomar">
+                <label for="restri2">Frutos do mar</label>
+               </div>
+               <div>
+                <input type="checkbox" id="restri3" name="restri3" value="acucar">
+                <label for="restri3">Açúcar (diabetes)</label>
+               </div>
+               <div>
+                <input type="checkbox" id="restri4" name="restri4" value="gluten">
+                <label for="restri4">Glúten</label>
+               </div>
+            </div>
+        </fieldset><br>
+        <button class="btn" onclick="" type="submit">
+            <div>Atualizar</div>
+        </button>
+    </form>
+</body>
+</html>

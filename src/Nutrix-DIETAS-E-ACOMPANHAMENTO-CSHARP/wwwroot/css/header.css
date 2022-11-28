@@ -13,8 +13,9 @@
    display: inline;
    font-weight: 700;
    text-decoration: none;
-   font-size: 23px;
+   font-size: 32px;
    color: #ECF9E6;
+   padding-bottom: 1px;
 }
 .header > .menu-icon {
    width: 30px;

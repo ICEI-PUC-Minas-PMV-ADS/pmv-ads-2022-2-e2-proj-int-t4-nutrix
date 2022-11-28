@@ -55,6 +55,7 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
                     new Claim(ClaimTypes.Name, user.Nome),
                     new Claim(ClaimTypes.NameIdentifier, user.Nome),
                     new Claim(ClaimTypes.Email, user.Email)
+
                 };
 
                 var userIdentity = new ClaimsIdentity(claims, "login");
@@ -155,7 +156,7 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
                     var claims = new List<Claim>
                     {
                         new Claim(ClaimTypes.Name, user.Nome),
-                        new Claim(ClaimTypes.NameIdentifier, user.Nome),
+                        new Claim(ClaimTypes.NameIdentifier, user.Email),
                         new Claim(ClaimTypes.Email, user.Email)
                     };
 

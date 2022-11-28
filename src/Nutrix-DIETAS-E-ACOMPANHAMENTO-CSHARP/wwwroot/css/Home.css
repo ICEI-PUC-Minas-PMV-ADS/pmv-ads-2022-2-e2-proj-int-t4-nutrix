@@ -54,7 +54,7 @@ nav {
 .main-title {
     display: flex;
     width: 100%;
-    font-size: 24px;
+    font-size: 30px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;

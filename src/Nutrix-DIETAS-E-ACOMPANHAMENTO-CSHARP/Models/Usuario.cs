@@ -34,9 +34,8 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models
         public string? DataNasc { get; set; }
 
 
-        [Column(TypeName = "VARCHAR")]
-        [StringLength(1)]
-        public string? SexoBiologico { get; set; }
+        [Required(ErrorMessage = "Informe seu sexo biologico")]
+        public Genero SexoBiologico { get; set; }
 
 
         public bool IsDiabetico { get; set; }
@@ -53,5 +52,11 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models
         public ICollection<DadoPessoal>? DadosPessoais { get; set; }
         public ICollection<Dieta>? Dietas { get; set; }
 
+    }
+
+    public enum Genero
+    {
+        Masculino,
+        Feminino
     }
 }
