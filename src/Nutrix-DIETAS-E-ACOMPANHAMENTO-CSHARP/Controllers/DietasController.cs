@@ -9,12 +9,12 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NuGet.Packaging;
 using Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models;
-using static Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.FuncoesDieta;
-using static Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.GlobalFunctions;
+
 
 
 namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
 {
+
     public class DietasController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -46,105 +46,123 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
 
         }
 
-        // GET: DietasSelector
-        //public IActionResult DietasSelector()
-        //{
-
-
-        //    return View("Views/Dieta/DietaSelector.cshtml");
-
-        //}
-
 
 
         // DIETA CREATOR
+
+
         public async Task<IActionResult> DietaSelector([Bind("DataDieta,TituloDieta,NumeroRefeicoes,Objetivo,UsuarioId")] Dieta dieta)
         {
 
             string userIdValue = "";
             var claimsIdentity = User.Identity as ClaimsIdentity;
-            if (claimsIdentity != null)
-            {
-                var userIdClaim = claimsIdentity.Claims
-                    .FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier);
 
-                if (userIdClaim != null)
+            try
+            {
+                if (claimsIdentity != null)
                 {
-                    userIdValue = userIdClaim.Value;
+                    var userIdClaim = claimsIdentity.Claims
+                        .FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier);
+
+                    if (userIdClaim != null)
+                    {
+                        userIdValue = userIdClaim.Value;
+                    }
                 }
+
+
+
+            } catch(Exception)
+            {
+                ViewBag.Message = "Usuário não pôde ser selecionado, tente efetuar o login novamente.";
+
+                return View("Views/Dieta/DietaSelector.cshtml");
             }
 
             var usuario = await _context.Usuarios
                 .FirstOrDefaultAsync(m => m.Email == userIdValue);
 
 
-            var dadosPessoais = await _context.DadoPessoais
-                .OrderByDescending(x => x.DataFicha)
-                .FirstOrDefaultAsync(m => m.UsuarioId == usuario.Id);
+
+            //criando dieta
+            Dieta dietaObject = dieta;
+
+            string dia = DateTime.Now.Day.ToString();
+            string mes = DateTime.Now.Month.ToString();
+            string ano = DateTime.Now.Year.ToString();
+
+            dietaObject.DataDieta = (dia + "." + mes + "." + ano);
+
+            dietaObject.TituloDieta = dieta.TituloDieta;
+
+            dietaObject.NumeroRefeicoes = dieta.NumeroRefeicoes;
 
 
-            DateTime dataNasc = DataConversor(usuario.DataNasc);
-            
-            int idadeDoUsuario = IdadeCalculator(dataNasc);
+            dietaObject.UsuarioId = usuario.Id;
 
-            dieta.NumeroRefeicoes = 4;
-
-            double taxaMetabolicaBasalDiaria = FuncaoHarrisBenedict(
-
-                    (int)usuario.SexoBiologico,
-                    idadeDoUsuario,
-                    dadosPessoais.Peso,
-                    dadosPessoais.Altura,
-                    (int)dadosPessoais.Tipo,
-                    (int)dieta.Objetivo
-                    );
-
-            List<double> taxaMetabolicaBasalPorRefeicoes = CalculaCaloriaPorRefeicoes(dieta.NumeroRefeicoes, taxaMetabolicaBasalDiaria);
-
-            List<int> alimentosId = new List<int>();
-            
-            List<Alimento> alimentos = new List<Alimento>();
-
-            List<Alimento> alimentosQuantidadeCorreta = new List<Alimento>();
-
-            List<Alimento[]> refeicoes = new List<Alimento[]>();
+            _context.Add(dietaObject);
+            await _context.SaveChangesAsync();
 
 
-            for (int i = 1; i <= dieta.NumeroRefeicoes; i++)
+
+
+            return RedirectToAction("RefeicaoSaver", "Refeicoes" );
+
+
+        }
+
+
+
+
+        
+        public async Task<IActionResult> DietaReload()
+        {
+
+            string userIdValue = "";
+            var claimsIdentity = User.Identity as ClaimsIdentity;
+
+            try
             {
-                alimentosId = RetornaIdAlimento(
-
-                    usuario.IsIntoleranteLactose,
-                    usuario.IsAlergicoFrutosMar,
-                    i
-                    );
-
-                for(int j = 1; j <= alimentosId.Count; j++)
+                if (claimsIdentity != null)
                 {
+                    var userIdClaim = claimsIdentity.Claims
+                        .FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier);
 
-                    alimentos.Add(await _context.Alimentos
-                    .FirstOrDefaultAsync(m => m.Id == alimentosId[j - 1]));
-
+                    if (userIdClaim != null)
+                    {
+                        userIdValue = userIdClaim.Value;
+                    }
                 }
 
-                alimentosQuantidadeCorreta = AtribuiCaloriaAlimentos(taxaMetabolicaBasalPorRefeicoes[i - 1], alimentos);
 
-                refeicoes.Add(alimentosQuantidadeCorreta.ToArray());
-
-                alimentos.Clear();
 
             }
+            catch (Exception)
+            {
+                ViewBag.Message = "Usuário não pôde ser selecionado, tente efetuar o login novamente.";
 
-                return View("Views/Dieta/DietaSelector.cshtml", refeicoes);
+                return View("Views/Dieta/DietaSelector.cshtml");
+            }
 
+            var usuario = await _context.Usuarios
+                .FirstOrDefaultAsync(m => m.Email == userIdValue);
+
+
+            var dietaBd = await _context.Dietas
+            .OrderByDescending(x => x.DataDieta)
+            .FirstOrDefaultAsync(m => m.UsuarioId == usuario.Id);
+
+            var dieta = await _context.Dietas.FindAsync(dietaBd.Id);
+            if (dieta != null)
+            {
+                _context.Dietas.Remove(dieta);
+            }
+
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction("DietaSelector", "Dietas");
         }
 
-        // GET: Dietas/Create
-        public IActionResult Create()
-        {
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "ConfirmacaoSenha");
-            return View();
-        }
 
         // POST: Dietas/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.

@@ -1,4 +1,5 @@
 ﻿:root {
+    --color-background: #E5E5E5;
     --color-dark-blue: #17222C;
     --color-dark-green: #001A0A;
     --color-primary-green: #005E23;
@@ -9,6 +10,13 @@
     --color-black: #0000;
     --color-tertiary-green: rgb(211, 228, 211);
     --color-quaternary-green: rgb(141, 186, 139);
+    --color-border: #005C53;
+    --color-background-block: #FFF5EA;
+    --color-background-img-opacity: #F2FADAdd;
+    --color-border-title: #ECF9E6;
+    --color-block-opacity: #B7D2B680;
+    --color-title-block: #8DBA8B;
+    --color-nutrixtitle: #ECF9E6;
 }
 
 * {
@@ -18,10 +26,42 @@
     border: 0;
 }
 
+html {
+    height: 100%;
+}
 
+body {
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-color: var(--color-background);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.grupo1 {
+    display: flex;
+    margin-left: 60px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-danger {
+    color: red;
+}
 
 input, select, textarea, button {
     border-radius: 7px;
+    height: 30px;
+    width: 400px;
+    margin-bottom: 25px;
+    font-size: 15px;
 }
 
 .campo {
@@ -46,6 +86,12 @@ input, select, textarea, button {
         font-weight: 500;
     }
 
+.wrong-message {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    color: var(--color-warning)
+}
+
 .campo2 {
     position: relative;
     align-self: flex-start;
@@ -58,7 +104,7 @@ input, select, textarea, button {
 
 
 fieldset {
-    background-color: var(--color-tertiary-green);
+    background-color: var(--color-block-opacity);
     border-radius: 22px;
     display: flex;
     flex-direction: column;
@@ -67,11 +113,11 @@ fieldset {
 }
 
 #titulo {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 650;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 15px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
 #titulo2 > img {
@@ -84,7 +130,8 @@ fieldset {
     font-size: 25px;
     font-weight: 550;
     text-align: center;
-    background-color: var(--color-quaternary-green);
+    background-color: var(--color-border);
+    color: var(--color-nutrixtitle);
     width: 100%;
     margin-bottom: 5%;
     border-top-left-radius: 22px;
@@ -129,6 +176,11 @@ form {
 /* Responsividade a partir de  Tablet */
 
 @media (min-width: 600px) {
+
+    .grupo1 {
+        margin-left: 200px;
+    }
+
     .campo {
         margin-bottom: 1em;
         align-items: center;
@@ -164,6 +216,16 @@ form {
 /* Responsividade PC */
 
 @media (min-width: 1025px) {
+
+    .grupo1 {
+        display: flex;
+        margin-left: 250px;
+        margin-right: 250px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
     .campo {
         width: 30%;
     }
@@ -206,7 +268,7 @@ form {
     }
 
     .btn {
-        width: 15%;
+        width: 100%;
     }
 
     .title2 {

@@ -13,7 +13,7 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models
 
 
         [DataType(DataType.DateTime)]
-        public string DataDieta { get; set; }
+        public string? DataDieta { get; set; }
 
 
         [Column(TypeName = "VARCHAR")]

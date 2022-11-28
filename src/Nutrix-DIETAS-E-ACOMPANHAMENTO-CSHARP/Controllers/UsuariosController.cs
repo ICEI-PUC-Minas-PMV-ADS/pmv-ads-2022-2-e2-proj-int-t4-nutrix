@@ -53,7 +53,7 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, user.Nome),
-                    new Claim(ClaimTypes.NameIdentifier, user.Nome),
+                    new Claim(ClaimTypes.NameIdentifier, user.Email),
                     new Claim(ClaimTypes.Email, user.Email)
 
                 };
@@ -187,19 +187,43 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
         }
 
         // GET: Usuarios/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit()
         {
-            if (id == null || _context.Usuarios == null)
+
+            string userIdValue = "";
+            var claimsIdentity = User.Identity as ClaimsIdentity;
+
+            try
             {
-                return NotFound();
+                if (claimsIdentity != null)
+                {
+                    var userIdClaim = claimsIdentity.Claims
+                        .FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier);
+
+                    if (userIdClaim != null)
+                    {
+                        userIdValue = userIdClaim.Value;
+                    }
+                }
+
+
+
+            }
+            catch (Exception)
+            {
+                ViewBag.Message = "Usuário não pôde ser selecionado, tente efetuar o login novamente.";
+
+                return View("Views/Usuarios/EdicaoPerfil/Edit.cshtml");
             }
 
-            var usuario = await _context.Usuarios.FindAsync(id);
+            var usuario = await _context.Usuarios
+                .FirstOrDefaultAsync(m => m.Email == userIdValue);
+
             if (usuario == null)
             {
                 return NotFound();
             }
-            return View(usuario);
+            return View("Views/Usuarios/EdicaoPerfil/Edit.cshtml", usuario);
         }
 
         // POST: Usuarios/Edit/5
@@ -207,15 +231,15 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,Senha,DataNasc,SexoBiologico,IsDiabetico,IsIntoleranteLactose,IsAlergicoGluten,IsAlergicoFrutosMar")] Usuario usuario)
+        public async Task<IActionResult> EditSave(int id, [Bind("Id,Nome,Email,Senha,DataNasc,SexoBiologico,IsDiabetico,IsIntoleranteLactose,IsAlergicoGluten,IsAlergicoFrutosMar")] Usuario usuario)
         {
             if (id != usuario.Id)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+            usuario.ConfirmacaoSenha = "";
+
                 try
                 {
                     usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
@@ -233,9 +257,7 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(usuario);
+            return View("Views/Home/Index.cshtml");
         }
 
         // GET: Usuarios/Delete/5

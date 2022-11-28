@@ -63,10 +63,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpY2FvUGVyZmlsXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -77,6 +73,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/Register/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcUmVnaXN0ZXJcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuario/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xWaWV3LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/View.cshtml]
