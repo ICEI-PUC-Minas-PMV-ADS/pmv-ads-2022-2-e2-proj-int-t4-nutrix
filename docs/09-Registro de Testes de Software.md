@@ -32,9 +32,9 @@ Testes Realizados:
 
 ![image](https://user-images.githubusercontent.com/105240089/200724336-2915bde9-1b19-4ccd-b5c4-648bc4b82209.png)
 
-Teste 01:
+| Teste 01: |
 
-Sucesso	Registrar usuário (preenchimentos correto das informações, Homepage, Logoff	Sem erro
+| Sucesso	Registrar usuário (preenchimentos correto das informações, Homepage, Logoff	Sem erro |
 
 Teste 02:
 
