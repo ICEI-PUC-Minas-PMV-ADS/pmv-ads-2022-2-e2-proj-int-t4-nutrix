@@ -51,8 +51,7 @@ Observar se as atualização realizadas no perfil do usuário surtirão o efeito
 CT-07 – Caso de uso:
 
 RF-08 O site deverá oferecer uma linha do tempo mostrando a evolução do usuário, alimentada pelas dietas cadastradas e alterações no perfil.
-RF-09 O site deverá alertar sobre a não atualização da linha do tempo por parte do usuário a partir de determinado período.
-
+RF-09 O site deverá alertar sobre a não atualização da linha do tempo por parte do usuário a partir de determinado período.<br>
 
 *Testes Realizados:
 
