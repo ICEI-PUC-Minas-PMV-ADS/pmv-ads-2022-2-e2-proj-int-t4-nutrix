@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\MorderSkol\Projeto\FINAL NUTRIX\src\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/DadosPessoais/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFkb3NQZXNzb2Fpc1xWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Dieta/DietaForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldGFcRGlldGFGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,7 +1,7 @@
 ﻿@model Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.Usuario
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Edição Perfil";
 }
 <html lang="pt-br">
 <head>
@@ -27,6 +27,7 @@
 
             <div class="row">
                     <form asp-action="EditSave">
+                    <div class="text-danger">Preencha os dados de usuário faltantes para gerar a dieta</div>
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                         <input type="hidden" asp-for="Id" />
                         <div class="form-group">

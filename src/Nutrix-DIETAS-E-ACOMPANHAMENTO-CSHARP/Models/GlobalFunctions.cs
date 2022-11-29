@@ -141,9 +141,11 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models
         public static DateTime DataConversor(string dataString)
         {
 
+
+
             CultureInfo provider = CultureInfo.InvariantCulture;
 
-            string format = "yyyy-mm-ddTHH:mm";
+            string format = "yyyy-MM-ddTHH:mm";
 
 
             var data = DateTime.ParseExact(dataString, format, provider);

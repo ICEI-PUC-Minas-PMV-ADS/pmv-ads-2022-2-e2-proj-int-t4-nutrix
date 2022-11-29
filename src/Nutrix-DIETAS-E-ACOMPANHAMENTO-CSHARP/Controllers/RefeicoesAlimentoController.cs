@@ -97,7 +97,6 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
 
             List<int> alimentosId = new List<int>();
 
-            List<Alimento> alimentos = new List<Alimento>();
 
             List<Alimento> alimentosQuantidadeCorreta = new List<Alimento>();
 
@@ -109,6 +108,9 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
 
             for (int i = 1; i <= dietaBd.NumeroRefeicoes; i++)
             {
+
+            List<Alimento> alimentos = new List<Alimento>();
+
                 alimentosId = RetornaIdAlimento(
 
                     usuario.IsIntoleranteLactose,
