@@ -61,6 +61,8 @@ RF-09 O site deverá alertar sobre a não atualização da linha do tempo por pa
 
 | Sucesso |	Data: 12/12/1998 12:13 ~ Peso: 80 ~ Altura: 171 ~ Tipo: Sedentário / Título da Dieta: Teste1 ~ Número das Refeições: 5 ~ Objetivo da Dieta: PerdaDePeso. Foi um sucesso, dá para escolher a dieta e tem os detalhes dos alimentos. |
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ![image](https://user-images.githubusercontent.com/105240089/200724336-2915bde9-1b19-4ccd-b5c4-648bc4b82209.png)
 
 * Teste 01:
@@ -75,11 +77,43 @@ RF-09 O site deverá alertar sobre a não atualização da linha do tempo por pa
 
 | Fracasso | Login, Credenciais incorretas, Esqueceu a senha, Tela de recuperação de senha. Erro no caminho para a página de Tela de recuperação de senha |
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ![image](https://user-images.githubusercontent.com/105240089/200724454-9bd2027a-22c2-4998-bd27-f89ad912538b.png)
 
 Teste 01:
 
 | Sucesso |	Tela de Login, Informações do site à esquerda.	Sem erro |
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![cats](https://user-images.githubusercontent.com/105240089/198921282-c16226b4-9f4b-4c77-80fa-0609285e73b3.jpg)
+![image](https://user-images.githubusercontent.com/105240089/204672212-e8e29d79-dbe1-47fb-9586-f0e481e2f016.png)
+
+Teste 01:
+
+| Fracasso |	Menu, Gerir Dietas, Excluir dieta. |
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![image](https://user-images.githubusercontent.com/105240089/204672983-bc48f8ef-c31d-4a8f-b7a0-3a1d70e2f414.png)
+
+Teste 01:
+
+| Sucesso | Editar Perfil, senha: teste1 ~ Data: 12/12/1998 12:13 ~ IsDiabetico: Check, Salvar |
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![image](https://user-images.githubusercontent.com/105240089/204673287-15c351f3-930c-4f25-80b5-3a6a5b85ec43.png)
+
+Teste 01:
+
+| Fracasso | Página Principal, Aviso da linha do tempo, Efetuar atualização do Perfil, Retornar à Tela Principal, Linha do tempo. Não foi possível a realização do passo a passo pois faltou a finalização da página. |
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![image](https://user-images.githubusercontent.com/105240089/204673551-38d33585-c266-49cb-9fd8-965016c17860.png)
+
+Teste 01:
+
+| Sucesso | Página Principal, Relatórios, Verificar a quantidade de dietas, Variação de peso entre dietas, Verificar IMC. Tudo correto. |
+
