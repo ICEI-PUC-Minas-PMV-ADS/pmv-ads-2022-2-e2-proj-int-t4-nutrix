@@ -55,28 +55,26 @@
                 <p class="text-icon1">Nova Dieta</p>
             </a>
 
-            <div class="nav-item">
+            <a class="nav-item" asp-area="" asp-controller="DadoPessoais" asp-action="DadosForm">
                 <img src="~/assets/edit-document-icon.png" alt="documento-icone">
-                <p class="text-icon2">Gerar Dietas</p>
-            </div>
+                <p class="text-icon2">Dados Pessoais</p>
+            </a>
             
             <a class="nav-item" asp-area="" asp-controller="Usuarios" asp-action="Edit">
                 <img src="~/assets/user-icon.png" alt="perfil-icone">
                 <p class="text-icon3">Editar Perfil</p>
             </a>
-            <div class="nav-item">
+            <a class="nav-item" asp-area="" asp-controller="Timeline" asp-action="Index">
                 <img src="~/assets/timeline-icon.png" alt="timeline-icone">
                 <p class="text-icon4">Linha do tempo</p>
-            </div>
-            <div class="nav-item">
+            </a>
+        <a class="nav-item" asp-area="" asp-controller="Relatorios" asp-action="Index">
                 <img src="~/assets/report-icon.png" alt="report-icone">
                 <p class="text-icon5">Relatórios</p>
-            </div>
+            </a>
 
         </nav>
 
-
-       @* <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuarios</a>*@
 
 
         

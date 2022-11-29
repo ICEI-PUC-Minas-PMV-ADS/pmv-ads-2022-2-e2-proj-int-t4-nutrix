@@ -82,6 +82,21 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
             var usuario = await _context.Usuarios
                 .FirstOrDefaultAsync(m => m.Email == userIdValue);
 
+            var dadosPessoais = await _context.DadoPessoais
+                .FirstOrDefaultAsync(m => m.UsuarioId == usuario.Id);
+
+            if(dadosPessoais == null)
+            {
+                ViewBag.Message = "Preencha os dados pessoais para gerar a dietas";
+
+                return RedirectToAction("DadosForm", "DadoPessoais");
+            }
+
+            if(usuario.DataNasc == null)
+            {
+                return RedirectToAction("Edit", "Usuarios");
+            }
+
 
 
             //criando dieta
@@ -90,8 +105,10 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
             string dia = DateTime.Now.Day.ToString();
             string mes = DateTime.Now.Month.ToString();
             string ano = DateTime.Now.Year.ToString();
+            string hora = DateTime.Now.Hour.ToString();
+            string minuto = DateTime.Now.Minute.ToString();
 
-            dietaObject.DataDieta = (dia + "." + mes + "." + ano);
+            dietaObject.DataDieta = (ano + "-" + mes + "-" + dia + "T" + hora + ":" + minuto);
 
             dietaObject.TituloDieta = dieta.TituloDieta;
 
@@ -161,120 +178,6 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
             await _context.SaveChangesAsync();
 
             return RedirectToAction("DietaSelector", "Dietas");
-        }
-
-
-        // POST: Dietas/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,DataDieta,TituloDieta,NumeroRefeicoes,Objetivo,UsuarioId")] Dieta dieta)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Add(dieta);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "ConfirmacaoSenha", dieta.UsuarioId);
-            return View(dieta);
-        }
-
-        // GET: Dietas/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null || _context.Dietas == null)
-            {
-                return NotFound();
-            }
-
-            var dieta = await _context.Dietas.FindAsync(id);
-            if (dieta == null)
-            {
-                return NotFound();
-            }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "ConfirmacaoSenha", dieta.UsuarioId);
-            return View(dieta);
-        }
-
-        // POST: Dietas/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,DataDieta,TituloDieta,NumeroRefeicoes,Objetivo,UsuarioId")] Dieta dieta)
-        {
-            if (id != dieta.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(dieta);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!DietaExists(dieta.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["UsuarioId"] = new SelectList(_context.Usuarios, "Id", "ConfirmacaoSenha", dieta.UsuarioId);
-            return View(dieta);
-        }
-
-        // GET: Dietas/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null || _context.Dietas == null)
-            {
-                return NotFound();
-            }
-
-            var dieta = await _context.Dietas
-                .Include(d => d.Usuario)
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (dieta == null)
-            {
-                return NotFound();
-            }
-
-            return View(dieta);
-        }
-
-        // POST: Dietas/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            if (_context.Dietas == null)
-            {
-                return Problem("Entity set 'ApplicationDbContext.Dietas'  is null.");
-            }
-            var dieta = await _context.Dietas.FindAsync(id);
-            if (dieta != null)
-            {
-                _context.Dietas.Remove(dieta);
-            }
-            
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool DietaExists(int id)
-        {
-          return _context.Dietas.Any(e => e.Id == id);
         }
     }
 }
