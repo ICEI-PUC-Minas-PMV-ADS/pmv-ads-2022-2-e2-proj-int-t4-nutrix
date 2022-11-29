@@ -53,7 +53,14 @@ CT-07 – Caso de uso:
 RF-08 O site deverá oferecer uma linha do tempo mostrando a evolução do usuário, alimentada pelas dietas cadastradas e alterações no perfil.
 RF-09 O site deverá alertar sobre a não atualização da linha do tempo por parte do usuário a partir de determinado período.
 
-Testes Realizados:
+
+*Testes Realizados:
+
+![image](https://user-images.githubusercontent.com/105240089/204658721-3fbc17c1-ff32-4f84-9e4c-3f0b7d84d757.png)
+
+* Teste 01:
+
+| Sucesso |	Data: 12/12/1998 12:13 ~ Peso: 80 ~ Altura: 171 ~ Tipo: Sedentário / Título da Dieta: Teste1 ~ Número das Refeições: 5 ~ Objetivo da Dieta: PerdaDePeso. Foi um sucesso, dá para escolher a dieta e tem os detalhes dos alimentos. |
 
 ![image](https://user-images.githubusercontent.com/105240089/200724336-2915bde9-1b19-4ccd-b5c4-648bc4b82209.png)
 
