@@ -3,14 +3,8 @@
     "",
     "\\src",
     "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
-    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Controllers",
-    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Models",
-    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Views",
-    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Views\\Dieta",
-    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Views\\Usuarios",
-    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Views\\Usuarios\\Login",
-    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Views\\Usuarios\\Register"
+    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Models"
   ],
-  "SelectedNode": "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Models\\FuncoesDieta.cs",
+  "SelectedNode": "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Models\\GlobalFunctions.cs",
   "PreviewInSolutionExplorer": false
 }

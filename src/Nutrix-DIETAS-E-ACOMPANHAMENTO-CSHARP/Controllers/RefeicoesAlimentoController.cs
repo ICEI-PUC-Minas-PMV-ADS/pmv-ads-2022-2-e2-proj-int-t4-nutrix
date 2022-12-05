@@ -149,7 +149,7 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
             }
 
 
-            await _context.SaveChangesAsync();
+            //await _context.SaveChangesAsync();
 
             return View("Views/Dieta/DietaSelector.cshtml", refeicoes);
 
