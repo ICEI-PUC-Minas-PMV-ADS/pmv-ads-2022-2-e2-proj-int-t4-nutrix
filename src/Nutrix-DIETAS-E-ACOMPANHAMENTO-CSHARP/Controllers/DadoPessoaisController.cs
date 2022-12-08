@@ -92,7 +92,7 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
                 await _context.SaveChangesAsync();
 
 
-            return View("Views/Home/Index.cshtml");
+            return RedirectToAction("Index", "Home");
 
         }
     }

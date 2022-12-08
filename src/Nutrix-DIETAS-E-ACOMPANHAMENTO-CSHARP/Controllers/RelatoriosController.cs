@@ -32,7 +32,11 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
-                IQueryable<Dieta> dietas = _context.Dietas;
+                string userEmail = User.FindFirst(ClaimTypes.Email).Value;
+                var userId = _context.Usuarios.Where(u => u.Email == userEmail).First().Id;
+
+                IQueryable<Dieta> dietas = _context.Dietas.Where(m => m.UsuarioId == userId);
+
                 var numDietas = dietas.Count();
                 ViewData["Count"] = numDietas;
                 return View("Views/Relatorios/DietasCriadas.cshtml");

@@ -8,85 +8,105 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP
 build_property.RootNamespace = Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP
-build_property.ProjectDir = D:\MorderSkol\Projeto\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\src\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\
+build_property.ProjectDir = D:\MorderSkol\Projeto\FINAL NUTRIX\src\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\MorderSkol\Projeto\NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS\src\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP
+build_property.MSBuildProjectDirectory = D:\MorderSkol\Projeto\FINAL NUTRIX\src\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Dieta/DietaForm.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/DadosPessoais/View.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFkb3NQZXNzb2Fpc1xWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Dieta/DietaForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldGFcRGlldGFGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Dieta/DietaInformation.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Dieta/DietaInformation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldGFcRGlldGFJbmZvcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Dieta/DietaSelector.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Dieta/DietaSelector.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlldGFcRGlldGFTZWxlY3Rvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Home/Index.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Home/Water.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxXYXRlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Shared/Error.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Relatorios/DietasCriadas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvc1xEaWV0YXNDcmlhZGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Relatorios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Relatorios/Peso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvc1xQZXNvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Relatorios/Saude.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVsYXRvcmlvc1xTYXVkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Shared/_Layout.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/AcessDenied.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Timeline/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGltZWxpbmVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/AcessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQWNlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/Delete.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/Details.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/EdicaoPerfil/Edit.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/EdicaoPerfil/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpY2FvUGVyZmlsXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/Index.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/Login/Login.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/Login/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcTG9naW5cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/Register/Register.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuarios/Register/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcUmVnaXN0ZXJcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/Usuario/View.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xWaWV3LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/View.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/View.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/_ViewImports.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/MorderSkol/Projeto/NUTRIX-DIETAS-E-ACOMPANHAMENTO-PUCMINAS/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/_ViewStart.cshtml]
+[D:/MorderSkol/Projeto/FINAL NUTRIX/src/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

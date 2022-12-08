@@ -257,7 +257,7 @@ namespace Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Controllers
                         throw;
                     }
                 }
-            return View("Views/Home/Index.cshtml");
+            return RedirectToAction("Index", "Home");
         }
 
         // GET: Usuarios/Delete/5
