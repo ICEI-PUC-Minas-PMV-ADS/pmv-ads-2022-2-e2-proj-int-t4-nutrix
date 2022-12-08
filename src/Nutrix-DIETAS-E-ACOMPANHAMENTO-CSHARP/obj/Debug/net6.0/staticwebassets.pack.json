@@ -1,387 +1,399 @@
 {
   "Files": [
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\arrow-left.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\arrow-left.png",
       "PackagePath": "staticwebassets\\assets\\arrow-left.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\background-login.jpeg",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\attention.png",
+      "PackagePath": "staticwebassets\\assets\\attention.png"
+    },
+    {
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\background-login.jpeg",
       "PackagePath": "staticwebassets\\assets\\background-login.jpeg"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\background-login.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\background-login.png",
       "PackagePath": "staticwebassets\\assets\\background-login.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\background-login.svg",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\background-login.svg",
       "PackagePath": "staticwebassets\\assets\\background-login.svg"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\calculator-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\calculator-icon.png",
       "PackagePath": "staticwebassets\\assets\\calculator-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\calorias-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\calorias-icon.png",
       "PackagePath": "staticwebassets\\assets\\calorias-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\carboidrato-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\carboidrato-icon.png",
       "PackagePath": "staticwebassets\\assets\\carboidrato-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\closed-menu-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\closed-menu-icon.png",
       "PackagePath": "staticwebassets\\assets\\closed-menu-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\diet-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\diet-icon.png",
       "PackagePath": "staticwebassets\\assets\\diet-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\edit-document-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\edit-document-icon.png",
       "PackagePath": "staticwebassets\\assets\\edit-document-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\email-icon.svg",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\email-icon.svg",
       "PackagePath": "staticwebassets\\assets\\email-icon.svg"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\gordura-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\gordura-icon.png",
       "PackagePath": "staticwebassets\\assets\\gordura-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\head-icon.svg",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\head-icon.svg",
       "PackagePath": "staticwebassets\\assets\\head-icon.svg"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\heart.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\heart.png",
       "PackagePath": "staticwebassets\\assets\\heart.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\house-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\house-icon.png",
       "PackagePath": "staticwebassets\\assets\\house-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\info-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\info-icon.png",
       "PackagePath": "staticwebassets\\assets\\info-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\loggof-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\loggof-icon.png",
       "PackagePath": "staticwebassets\\assets\\loggof-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\logo.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\logo.png",
       "PackagePath": "staticwebassets\\assets\\logo.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\meal.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\meal.png",
       "PackagePath": "staticwebassets\\assets\\meal.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\new-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\new-icon.png",
       "PackagePath": "staticwebassets\\assets\\new-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\opened-menu-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\opened-menu-icon.png",
       "PackagePath": "staticwebassets\\assets\\opened-menu-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\proteina-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\proteina-icon.png",
       "PackagePath": "staticwebassets\\assets\\proteina-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\reload-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\reload-icon.png",
       "PackagePath": "staticwebassets\\assets\\reload-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\report-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\report-icon.png",
       "PackagePath": "staticwebassets\\assets\\report-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\timeline-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\timeline-icon.png",
       "PackagePath": "staticwebassets\\assets\\timeline-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\user-icon.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\user-icon.png",
       "PackagePath": "staticwebassets\\assets\\user-icon.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\weight.png",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\assets\\weight.png",
       "PackagePath": "staticwebassets\\assets\\weight.png"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\DietaStart.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\DietaStart.css",
       "PackagePath": "staticwebassets\\css\\DietaStart.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\Home.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\Home.css",
       "PackagePath": "staticwebassets\\css\\Home.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\Login.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\Login.css",
       "PackagePath": "staticwebassets\\css\\Login.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\Perfil.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\Perfil.css",
       "PackagePath": "staticwebassets\\css\\Perfil.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\Register.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\Register.css",
       "PackagePath": "staticwebassets\\css\\Register.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\footer.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\Relatorios.css",
+      "PackagePath": "staticwebassets\\css\\Relatorios.css"
+    },
+    {
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\Timeline.css",
+      "PackagePath": "staticwebassets\\css\\Timeline.css"
+    },
+    {
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\footer.css",
       "PackagePath": "staticwebassets\\css\\footer.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\header.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\header.css",
       "PackagePath": "staticwebassets\\css\\header.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\menu_lateral.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\menu_lateral.css",
       "PackagePath": "staticwebassets\\css\\menu_lateral.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\site.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\favicon.ico",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\js\\menu_lateral.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\js\\menu_lateral.js",
       "PackagePath": "staticwebassets\\js\\menu_lateral.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\js\\site.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Gabriel\\Programação\\C# Projects\\Nutrix Dietas e Acompanhamentos\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\Gabriel\\PUC - Minas\\Projeto\\Nutrix - Dietas e Acompanhamentos Original\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

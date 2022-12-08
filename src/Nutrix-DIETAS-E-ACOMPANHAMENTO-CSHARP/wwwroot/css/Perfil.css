@@ -44,7 +44,13 @@ main {
     width: 100%;
 }
 
+    main > h1 {
+        font-size: 10px;
+    }
+
+
 .grupo1 {
+    font-size: 18px;
     display: flex;
     margin-top: 50px;
     margin-left: 60px;

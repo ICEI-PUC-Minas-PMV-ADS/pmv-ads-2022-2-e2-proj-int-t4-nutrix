@@ -234,6 +234,7 @@ nav {
         font-size: 28px;
         display: flex;
         align-self: center;
+        padding-right: 25px;
     }
 
 .calc-base-content {
@@ -258,6 +259,12 @@ nav {
     justify-content: space-around;
 }
 
+.bottom:hover {
+    letter-spacing: 0.5px;
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
+
 .visualizar {
     width: 30%;
     justify-self: center;
@@ -268,6 +275,7 @@ nav {
     font-weight: 650;
     color: var(--color-nutrixtitle);
     cursor: pointer;
+    text-decoration: none
 }
 
 .hint {
