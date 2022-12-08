@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LoEhusWpoQdR4z9NrUBQUWho1JUNz34g4vpeT8HzSIs=",
+  "Hash": "Tmx4eDrc/oMUcmE7i1ahBWBv1Hjud1aKz8VTD1TYiGI=",
   "Source": "Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
   "BasePath": "_content/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
   "Mode": "Default",
@@ -678,6 +678,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Timeline.css"
+    },
+    {
+      "Identity": "D:\\MorderSkol\\Projeto\\FINAL NUTRIX\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\css\\Water.css",
+      "SourceId": "Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\MorderSkol\\Projeto\\FINAL NUTRIX\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\",
+      "BasePath": "_content/Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
+      "RelativePath": "css/Water.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Water.css"
     },
     {
       "Identity": "D:\\MorderSkol\\Projeto\\FINAL NUTRIX\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\wwwroot\\favicon.ico",

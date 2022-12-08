@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<Nutrix_DIETAS_E_ACOMPANHAMENTO_CSHARP.Models.Dieta>
+
+@{
     ViewData["Title"] = "HomePage";
 }
 
@@ -23,44 +25,56 @@
                         <h2>Novas dietas cadastradas!</h2>
                         <div></div>
                     </div>
+
+
                     <div class="new-diet-content">
-                        <div class="new-diet-card">
-                            <img src="../../assets/diet-icon.png" alt="ícone new">
-                            <p>dieta n</p>
-                        </div>
-                        <div class="new-diet-card">
-                            <img src="../../assets/diet-icon.png" alt="ícone new">
-                            <p>dieta n</p>
-                        </div>
-                        <div class="new-diet-card">
-                            <img src="../../assets/diet-icon.png" alt="ícone new">
-                            <p>dieta n</p>
-                        </div>
+                        @{
+
+
+                        if(Model.Count() <= 0) {
+
+                                <div class="new-diet-card">
+                                    <img src="../../assets/new-icon.png" alt="ícone new">
+                                    <p>Não há dietas cadastradas</p>
+                                </div>
+                        } else {
+                                foreach (Dieta dieta in Model)
+                                {
+
+                                    <div class="new-diet-card">
+                                        <img src="../../assets/diet-icon.png" alt="ícone new">
+                                        <p>@dieta.TituloDieta</p>
+                                    </div>
+
+                                }
+                        }
+
+                    }
                     </div>
+
                 </div>
-                <div class="last-att">
+
+
+                <form asp-action="WaterCalc" class="last-att">
                     <div class="last-att-header">
                         <img src="../../assets/reload-icon.png" alt="ícone new">
-                        <h2>Última atualização no perfil</h2>
+                        <h2>Consumo de água</h2>
                         <div></div>
                     </div>
-                    <div class="last-att-content">
-                        <div class="data">
+                    <div class="calc-base-content">
+                        <p>Clique abaixo para calcular o consumo de água ideal por dia</p>
+                        <div class="bottom">
                             <div></div>
-                            <div class="data-p">
-                                <p>7/10/2022</p>
-                            </div>
-                            <div></div>
-                        </div>
-                        <div class="dias-atras">
-                            <div></div>
-                            <div class="dias-atras-p">
-                                <p>10 dias atrás</p>
-                            </div>
+                            <button class="visualizar" type="submit" >
+                                <p>Calcular</p>
+                            </button>
                             <div></div>
                         </div>
                     </div>
-                </div>
+                </form>
+
+
+
                 <div class="calc-base">
                     <div class="calc-base-header">
                         <img src="../../assets/calculator-icon.png" alt="ícone new">

@@ -27,34 +27,30 @@
                 </div>
             </h2>
 
-            <div class="row">
 
                 <form asp-action="CreateDadoPessoal">
                     <div class="text-danger">Preencha os dados pessoais para gerar a dieta</div>
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                    <div class="form-group">
-                        <label asp-for="Peso" class="control-label"></label>
-                        <input asp-for="Peso" class="form-control" />
+
+                        <label>O seu peso (Kg)</label>
+                        <input asp-for="Peso" />
                         <span asp-validation-for="Peso" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Altura" class="control-label"></label>
-                        <input asp-for="Altura" class="form-control" />
+                  
+                        <label>A sua altura (cm)</label>
+                        <input asp-for="Altura" />
                         <span asp-validation-for="Altura" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
-                        <label asp-for="Tipo" class="control-label"></label>
-                        <select asp-for="Tipo" class="form-control" asp-items="Html.GetEnumSelectList<FrequenciaAtvFisica>()" placeholder="Frequência Atividade Física"></select>
+
+
+                        <label>Frequência Atividade Física</label>
+                        <select asp-for="Tipo" asp-items="Html.GetEnumSelectList<FrequenciaAtvFisica>()"></select>
                         <span asp-validation-for="Tipo" class="text-danger"></span>
 
 
-                    </div>
-                    <button class="form-group">
-                        <input type="submit" value="Salvar" class="btn btn-primary" />
+                    <button class="btn" type="submit">
+                        <div>Salvar</div>
                     </button>
                 </form>
 
-            </div>
 
         </fieldset>
     </main>

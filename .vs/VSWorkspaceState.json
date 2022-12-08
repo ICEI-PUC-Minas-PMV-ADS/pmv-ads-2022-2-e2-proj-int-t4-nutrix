@@ -3,8 +3,8 @@
     "",
     "\\src",
     "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP",
-    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Models"
+    "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Controllers"
   ],
-  "SelectedNode": "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Models\\GlobalFunctions.cs",
+  "SelectedNode": "\\src\\Nutrix-DIETAS-E-ACOMPANHAMENTO-CSHARP\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -12,74 +12,69 @@
 </head>
 <body>
     <main>
-        <div>
-            <h1 id="titulo">Editar Perfil</h1>
-        </div>
 
         <fieldset class="grupo1">
 
             <h2 id="titulo2">
                 <img src="../../assets/edit-document-icon.png">
                 <div class="title2">
-                    Dados para edição do perfil
+                    Edição do perfil de usuário
                 </div>
             </h2>
 
-            <div class="row">
-                    <form asp-action="EditSave">
+                <form asp-action="EditSave">
                     <div class="text-danger">Preencha os dados de usuário faltantes para gerar a dieta</div>
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                         <input type="hidden" asp-for="Id" />
-                        <div class="form-group">
-                            <label asp-for="Nome" class="control-label"></label>
-                            <input asp-for="Nome" class="form-control" />
+                            <label asp-for="Nome"></label>
+                            <input asp-for="Nome"/>
                             <span asp-validation-for="Nome" class="text-danger"></span>
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="Email" class="control-label"></label>
-                            <input asp-for="Email" class="form-control" />
+
+                            <label asp-for="Email"></label>
+                            <input asp-for="Email" />
                             <span asp-validation-for="Email" class="text-danger"></span>
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="Senha" class="control-label"></label>
-                            <input asp-for="Senha" class="form-control" />
+
+
+                            <label asp-for="Senha"></label>
+                            <input asp-for="Senha"placeholder="****"/>
                             <span asp-validation-for="Senha" class="text-danger"></span>
-                        </div>
-                        <div class="form-group">
-                            <label asp-for="DataNasc" class="control-label"></label>
-                            <input asp-for="DataNasc" class="form-control" />
+
+
+                            <label>Data de Nascimento</label>
+                            <input asp-for="DataNasc" />
                             <span asp-validation-for="DataNasc" class="text-danger"></span>
-                        </div>
-                        <div class="form-group">
+
+
                             <label asp-for="SexoBiologico" class="control-label"></label>
                             <input asp-for="SexoBiologico" class="form-control" />
                             <span asp-validation-for="SexoBiologico" class="text-danger"></span>
-                        </div>
-                        <div class="form-group form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input" asp-for="IsDiabetico" /> @Html.DisplayNameFor(model => model.IsDiabetico)
-                            </label>
-                        </div>
-                        <div class="form-group form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input" asp-for="IsIntoleranteLactose" /> @Html.DisplayNameFor(model => model.IsIntoleranteLactose)
-                            </label>
-                        </div>
-                        <div class="form-group form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input" asp-for="IsAlergicoGluten" /> @Html.DisplayNameFor(model => model.IsAlergicoGluten)
-                            </label>
-                        </div>
-                        <div class="form-group form-check">
-                            <label class="form-check-label">
-                                <input class="form-check-input" asp-for="IsAlergicoFrutosMar" /> @Html.DisplayNameFor(model => model.IsAlergicoFrutosMar)
-                            </label>
-                        </div>
-                        <button class="form-group">
-                            <input type="submit" value="Salvar" class="btn btn-primary" />
+
+                            <div class="mark-options">
+                                <input asp-for="IsDiabetico" />
+                                <p>Diabético</p>
+                            </div>
+
+                            <div class="mark-options">
+                                <input asp-for="IsIntoleranteLactose" />
+                                 <p>Intolerante a lactose</p>
+                            </div>
+
+
+                            <div class="mark-options">
+                                <input asp-for="IsAlergicoGluten" />
+                                <p>Alergico a gluten</p>
+                            </div>
+
+
+                            <div class="mark-options">
+                                <input asp-for="IsAlergicoFrutosMar" />
+                                <p>Alergico a frutos do mar</p>
+                            </div>
+
+                        <button class="btn" type="submit">
+                            <div>Salvar</div>
                         </button>
-                    </form>
-            </div>
+                </form>
 
         </fieldset>
 

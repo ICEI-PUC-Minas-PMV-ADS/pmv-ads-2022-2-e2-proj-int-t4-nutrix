@@ -1,0 +1,57 @@
+﻿
+
+@{
+    ViewData["Title"] = "Cálculo de consumo de água";
+}
+
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="~/css/Water.css" asp-append-version="true" />
+    <title>Nutrix Dietas e Acompanhamento </title>
+
+
+</head>
+<body>
+
+    <main>
+
+        <div>
+            <h1 id="titulo">Consumo de água</h1>
+        </div>
+
+
+        <fieldset class="grupo1">
+
+            <h2 id="titulo2">
+                <img src="../../assets/edit-document-icon.png">
+                <div class="title2">
+                    Abaixo seu consumo de água diário
+                </div>
+            </h2>
+
+            <form asp-action="Index">
+                
+                <div class="water-content">
+                    <h4>@Model</h4>
+                    <p>Quantidade gerada baseando-se em seus dados pessoais e perfil do usuário.</p>
+                </div>
+
+                <button class="btn" type="submit">
+                    <div>Voltar</div>
+                </button>
+            </form>
+
+        </fieldset>
+
+
+
+    </main>
+
+
+</body>
+</html>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
